@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Yanone+Kaffeesatz&display=swap');
+
+header, nav, footer{
+    max-width: 600px;
+    margin: auto;
+}
+
+h2, h3, nav, footer {
+    text-align: center;
+}
+
+h2 {
+    font-family: 'IBM Plex Sans', 'Yanone Kaffeesatz', sans-serif;
+    color:rgb(214, 107, 200);
+}
+
+main {
+    /*Display the main sections in a single column at this point.*/
+    font-family: 'IBM Plex Sans', 'Yanone Kaffeesatz', sans-serif;
+    color: black;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+header {
+    font-family: 'IBM Plex Sans', 'Yanone Kaffeesatz', sans-serif;
+    display: grid;
+    margin: center;
+    grid-template-columns: 1fr 1fr;
+    background-color: #03b387bb;
+}
+    
+nav {
+    margin-bottom: 30px;
+    background-color: rgb(172, 190, 196);
+}
+  
+nav a {
+    display: block;
+    padding: .5rem;
+}
+
+footer {
+    background-color: #03b387bb;
+}
+
+h3 {
+    background-color: #03b387bb;
+    padding: 10px;
+}
+
+#profile-image {
+    margin: auto;
+}
+
+img {
+    max-width: 65%;
+    height: 65%;
+    margin: auto;
+}
