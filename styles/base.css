@@ -1,22 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Yanone+Kaffeesatz&display=swap');
 
-header, nav, footer{
-    max-width: 600px;
-    margin: auto;
+/* Top portion with name and picture */
+header {
+    font-family: 'IBM Plex Sans', 'Yanone Kaffeesatz', sans-serif;
+    display: grid;
+    /* margin: center; */
+    grid-template-columns: 1fr 1fr;
+    background-color: #84AE98;
 }
 
-h2, h3, nav, footer {
-    text-align: center;
+/* Navigation menu */
+nav {
+    margin-bottom: 30px;
+    background-color: #F2CA92;
+    font-size: x-large ;
 }
 
+/* Navigation menu */
+nav a {
+    display: block;
+    padding: .5rem;
+}
+
+/* Navigation menu links */
+a:link, a:visited {
+    color:black;
+    text-decoration: none;
+}
+
+/* The web development banner */
 h2 {
     font-family: 'IBM Plex Sans', 'Yanone Kaffeesatz', sans-serif;
     color:#1F363D;
     text-decoration-line: underline;
 }
 
+/* Learning Activities and Information section headings */
+h3 {
+    background-color: #84AE98; 
+    padding: 10px;
+}
+
+/* Learning Activities and Information sections */
 main {
-    /*Display the main sections in a single column at this point.*/
     font-family: 'IBM Plex Sans', 'Yanone Kaffeesatz', sans-serif;
     color: black;
     max-width: 600px;
@@ -24,45 +50,30 @@ main {
     text-align: center;
 }
 
-header {
-    font-family: 'IBM Plex Sans', 'Yanone Kaffeesatz', sans-serif;
-    display: grid;
-    margin: center;
-    grid-template-columns: 1fr 1fr;
-    background-color: #84AE98;
-}
-    
-nav {
-    margin-bottom: 30px;
-    background-color: #F2CA92;
-    font-size: x-large ;
-}
-  
-nav a {
-    display: block;
-    padding: .5rem;
-}
-
+/* Footer, copyright, name, sate, etc */
 footer {
     background-color: #DA9781;
 }
 
-h3 {
-    background-color: #84AE98; 
-    padding: 10px;
-}
-
+/* Picture of me */
 #profile-image {
     margin: auto;
 }
 
+/* Also the picture */
 img {
     max-width: 65%;
     height: 65%;
     margin: auto;
 }
 
-a:link, a:visited {
-    color:black;
-    text-decoration: none;
+/* Makes everything uniform */
+header, nav, footer{
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Makes everything uniform */
+h2, h3, nav, footer {
+    text-align: center;
 }
