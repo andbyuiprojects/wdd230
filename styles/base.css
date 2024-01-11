@@ -43,11 +43,16 @@ h3 {
 
 /* Learning Activities and Information sections */
 main {
+    grid-column:auto;
     font-family: 'IBM Plex Sans', 'Yanone Kaffeesatz', sans-serif;
     color: black;
     max-width: 600px;
     margin: auto;
-    text-align: center;
+}
+
+/* The items under Learning Activities */
+.card-list {
+    list-style-type: none;
 }
 
 /* Footer, copyright, name, sate, etc */
