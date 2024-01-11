@@ -11,7 +11,8 @@ h2, h3, nav, footer {
 
 h2 {
     font-family: 'IBM Plex Sans', 'Yanone Kaffeesatz', sans-serif;
-    color:rgb(214, 107, 200);
+    color:#1F363D;
+    text-decoration-line: underline;
 }
 
 main {
@@ -28,12 +29,13 @@ header {
     display: grid;
     margin: center;
     grid-template-columns: 1fr 1fr;
-    background-color: #03b387bb;
+    background-color: #84AE98;
 }
     
 nav {
     margin-bottom: 30px;
-    background-color: rgb(172, 190, 196);
+    background-color: #F2CA92;
+    font-size: x-large ;
 }
   
 nav a {
@@ -42,11 +44,11 @@ nav a {
 }
 
 footer {
-    background-color: #03b387bb;
+    background-color: #DA9781;
 }
 
 h3 {
-    background-color: #03b387bb;
+    background-color: #84AE98; 
     padding: 10px;
 }
 
@@ -58,4 +60,9 @@ img {
     max-width: 65%;
     height: 65%;
     margin: auto;
+}
+
+a:link, a:visited {
+    color:black;
+    text-decoration: none;
 }
