@@ -2,11 +2,15 @@
 
 /* Top portion with name and picture */
 header {
-    font-family: 'IBM Plex Sans', 'Yanone Kaffeesatz', sans-serif;
     display: grid;
-    /* margin: center; */
     grid-template-columns: 1fr 1fr;
     background-color: #84AE98;
+}
+
+/* Text within the header (name) */
+h1 {
+    font-family: 'IBM Plex Sans', 'Yanone Kaffeesatz', sans-serif;
+    margin: auto;
 }
 
 /* Navigation menu */
@@ -30,24 +34,21 @@ a:link, a:visited {
 
 /* The web development banner */
 h2 {
-    font-family: 'IBM Plex Sans', 'Yanone Kaffeesatz', sans-serif;
     color:#1F363D;
     text-decoration-line: underline;
 }
 
 /* Learning Activities and Information section headings */
 h3 {
-    background-color: #84AE98; 
+    background-color: #84AE98;
     padding: 10px;
 }
 
 /* Learning Activities and Information sections */
 main {
-    grid-column:auto;
     font-family: 'IBM Plex Sans', 'Yanone Kaffeesatz', sans-serif;
+    grid-column:auto;
     color: black;
-    max-width: 600px;
-    margin: auto;
 }
 
 /* The items under Learning Activities */
@@ -60,12 +61,7 @@ footer {
     background-color: #DA9781;
 }
 
-/* Picture of me */
-#profile-image {
-    margin: auto;
-}
-
-/* Also the picture */
+/* Profile picture */
 img {
     max-width: 65%;
     height: 65%;
@@ -73,12 +69,12 @@ img {
 }
 
 /* Makes everything uniform */
-header, nav, footer{
+header, nav, main, footer{
     max-width: 600px;
     margin: auto;
 }
 
 /* Makes everything uniform */
-h2, h3, nav, footer {
+h1, h2, h3, nav, footer {
     text-align: center;
 }
