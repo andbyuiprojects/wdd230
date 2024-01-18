@@ -54,6 +54,7 @@ main {
 /* The items under Learning Activities */
 .card-list {
     list-style-type: none;
+    text-align: center;
 }
 
 /* Footer, copyright, name, sate, etc */
