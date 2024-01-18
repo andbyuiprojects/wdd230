@@ -21,7 +21,7 @@ nav {
 }
 
 /* Navigation menu */
-nav a {
+nav ul li {
     display: block;
     padding: .5rem;
 }
@@ -47,14 +47,21 @@ h3 {
 /* Learning Activities and Information sections */
 main {
     font-family: 'IBM Plex Sans', 'Yanone Kaffeesatz', sans-serif;
-    grid-column:auto;
     color: black;
 }
 
-/* The items under Learning Activities */
-.card-list {
-    list-style-type: none;
+/* Learning Activities and Information */
+.card {
     text-align: center;
+    display: grid;
+    /* border: 1px solid rgba(0, 0, 0, 0.63);
+    border-radius: 5px;
+    margin: 1rem; */
+}
+
+/* The items under Learning Activities */
+ul {
+    list-style-type: none;
 }
 
 /* Footer, copyright, name, sate, etc */
