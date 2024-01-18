@@ -35,7 +35,7 @@ a:link, a:visited {
 /* The web development banner */
 h2 {
     color:#1F363D;
-    text-decoration-line: underline;
+    border-bottom: 1px solid black;
 }
 
 /* Learning Activities and Information section headings */
