@@ -14,16 +14,13 @@
         margin: auto;
     }
 
-    .card {
+    main{
         grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
     }
 
-    nav {
-        max-width: 820px;
-    }
-
-    header, footer{
-        max-width: 800px;
+    .card-learning {
+        grid-column: 1/2;
     }
 
 }
