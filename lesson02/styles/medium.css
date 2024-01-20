@@ -1,0 +1,9 @@
+@media screen and (300px <= width <= 500px) {
+    main {
+      grid-template-columns: 1fr;
+    }
+
+    .section-3{
+      grid-column: 1/2;
+    }
+  }
