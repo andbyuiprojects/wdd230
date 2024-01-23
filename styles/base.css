@@ -13,6 +13,17 @@ h1 {
     margin: auto;
 }
 
+#menu {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    border: 1px solid black;
+}
+
+#menu::before {
+	content: "☰";
+}
+
 /* Navigation menu */
 nav {
     margin-bottom: 30px;
