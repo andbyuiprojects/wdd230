@@ -23,6 +23,24 @@
     #menu {
         display: none; 
     }
+
+    /* Navigation menu */
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        background-color: #F2CA92;
+        max-width: 820px;
+        max-height: auto;
+        text-align: center;
+    }
+    
+    /* Navigation menu list items */
+    .navigation li a {
+        padding: .5rem;
+        text-align: center;
+    }
+
 }
 
 header {

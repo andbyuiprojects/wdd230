@@ -85,29 +85,29 @@ h1, h2, h3, nav, footer {
     text-align: center;
 }
 
-iframe {
+/* The google map */
+#google-map {
     display: block;
     margin: auto;
+    padding-bottom: 30px;
 }
 
 
-/* Small View (mobile) */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/******** Small View (mobile) ********/
 
+/* Name */
 h1 {
     font-size: 1.5rem;
     margin-left: 1rem;
 }
 
+/* Web development banner */
 h2 {
     font-size: 1.2rem;
     margin: 1rem;
 }
 
+/* Navigation menu icon position, color, size etc. */
 #menu {
     font-size: 1.5rem;
     border: 1px solid rgba(0, 0, 0, 0.3);
@@ -119,14 +119,17 @@ h2 {
     right: 1rem;
 }
 
+/* Navigation menu icon open */
 #menu::before {
     content: "☰";
 }
 
+/* Navigation menu icon close */
 #menu.open::before {
     content: "❌";
 }
 
+/* Navigation menu */
 .navigation {
     display: flex;
     flex-direction: column;
@@ -135,21 +138,26 @@ h2 {
     display: none;
 }
 
+/* Navigation menu list items */
 .navigation li a {
     display: block;
     padding: .5rem;
     text-align: center;
 }
+
+/* Navigation menu items hover */
 .navigation li a:hover {
     background-color: #84AE98;
     color: black;
     font-weight: 700;
 }
 
+/* Opens the navigation menu */
 .open {
     display: flex;
 }
 
+/* The active window icon */
 .active::before {
-    content: "🏡 ";
+    content: "🔰 ";
 }
