@@ -18,6 +18,11 @@
         grid-template-columns: 1fr 1fr;
         grid-gap: 1rem;
     }
+
+    /* hide menu button */
+    #menu {
+        display: none; 
+    }
 }
 
 header {
@@ -28,4 +33,17 @@ header {
 
 header, main, footer {
     padding: 10px;
+}
+
+.navigation {
+    flex-direction: row;
+}
+
+.navigation li {
+    display: block;
+    flex: 1 1 100%;
+}
+
+.stuff {
+    margin: 1rem auto;
 }
