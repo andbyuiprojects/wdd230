@@ -161,3 +161,11 @@ h2 {
 .active::before {
     content: "🔰 ";
 }
+
+/* The google map */
+#google-map {
+    display: block;
+    margin: auto;
+    padding-bottom: 30px;
+    max-width: 400px;
+}

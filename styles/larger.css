@@ -41,6 +41,10 @@
         text-align: center;
     }
 
+    #google-map {
+        max-width: 600px;
+    }
+
 }
 
 header {
