@@ -1,19 +1,23 @@
 @media (min-width: 650px) {
 
+    /* Navigation menu */
     nav ul {
         display: flex;
     }
 
+    /* Navigation menu */
     nav ul li {
         flex: 1 1 100%
     }
 
+    /* Picture of me */
     img {
         max-width: 15%;
         height: 15%;
         margin: auto;
     }
 
+    /* Learning Activities and Information sections */
     main{
         grid-template-columns: 1fr 1fr;
         grid-gap: 1rem;
@@ -40,26 +44,31 @@
         text-align: center;
     }
 
+    /* Google map */
     #google-map {
         max-width: 600px;
     }
 
 }
 
+/* Top portion with name and picture */
 header {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+/* Top, middle and bottom portions */
 header, main, footer {
     padding: 10px;
 }
 
+/* Navigation menu */
 .navigation {
     flex-direction: row;
 }
 
+/* Navigation menu list */
 .navigation li {
     display: block;
     flex: 1 1 100%;
