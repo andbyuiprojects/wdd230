@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap');
+
+/* Title*/
+header {
+    font-family: 'Lato', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #89B08D;
+}
+
+h2 {
+    font-size: x-large;
+    background-color: #88AA9B;
+}
+
+main {
+    font-family: 'Open Sans', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    grid-gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.purpose {
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+
+.scenarios {
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+
+/* Footer, copyright, name, sate, etc */
+footer {
+    background-color: #C7A26B;
+    text-align: center;
+}
+
+/* All list items */
+ul {
+    list-style-type: none;
+}
+
+/* All links */
+a:link, a:visited {
+    color:black;
+    text-decoration: none;
+}
+
+.wireframe {
+    text-align: center;
+    grid-column: 1/-1;
+    border: 1px solid black;
+    border-radius: .5rem;
+}
