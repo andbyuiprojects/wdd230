@@ -24,11 +24,11 @@ main {
     padding-right: 10px;
 }
 
-
-.purpose, .site-name, .scenarios, .wireframe {
+.purpose, .site-name, .scenarios, .wireframe, .topo {
     border: 1px solid black;
     border-radius: 1rem;
     margin: .5rem;
+    text-align: center;
 }
 
 /* Footer, copyright, name, sate, etc */
@@ -52,15 +52,10 @@ a:link, a:visited {
     text-align: center;
 }
 
-p {
-    padding-left: 10px;
-}
-
 :root {
-    --primary-color: #85B36B   ;
-    --secondary-color: #8EB5CD ;
+    --primary-color: #8EB5CD;
+    --secondary-color: #85B36B;
     --accent1-color: #ffb703;
-    --accent2-color: #FC956F;
 
 }
 
@@ -69,26 +64,34 @@ p {
     min-width: 350px;
     margin: auto;
     text-align: center;
-  }
+}
 
-  .colors th {
-    background-color: #999;
-  }
+.colors th {
+  background-color: #999;
+}
 
-  .colors td {
-    width: 25%;
-    height: 3em;
-  }
+.colors td {
+  width: 25%;
+  height: 3em;
+}
   
-  .primary {
-    background-color: var(--primary-color);
-  }
-  .secondary {
-    background-color: var(--secondary-color);
-  }
-  .accent1 {
-    background-color: var(--accent1-color);
-  }
-  .accent2 {
-    background-color: var(--accent2-color);
-  }
+.primary {
+  background-color: var(--primary-color);
+}
+.secondary {
+  background-color: var(--secondary-color);
+}
+.accent1 {
+  background-color: var(--accent1-color);
+}
+.accent2 {
+  background-color: var(--accent2-color);
+}
+
+#head-font {
+  font-family: 'Lato'
+}
+
+#topo-font {
+  font-family: 'Open Sans';
+}
