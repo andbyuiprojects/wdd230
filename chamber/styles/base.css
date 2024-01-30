@@ -1,0 +1,71 @@
+/* Entire page */
+body {
+    background-color: #D6CBD9;
+}
+
+/* Title*/
+header {
+    font-family: 'Lato', sans-serif;
+    background-color: #85B36B;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+/* Navigation menu */
+.navigation {
+    margin-bottom: 30px;
+    background-color: #8EB5CD;
+    font-size: x-large;
+}
+
+/* Navigation menu */
+.navigation ul li {
+    display: block;
+    padding: .5rem;
+}
+
+#hero-img {
+    display: grid;
+}
+
+/* Join button */
+#join::before {
+    content: "Join Now!";
+}
+
+/* Section headings */
+h2 {
+    font-family: 'Lato', sans-serif;
+    background-color: #8EB5CD;
+    padding-left: 10px;
+    text-align: center;
+}
+
+/* Main content of the page */
+main {
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+    grid-gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    display: grid;
+}
+
+/* All list items */
+ul {
+    list-style-type: none;
+}
+
+/* All links */
+a:link, a:visited {
+    color:black;
+    text-decoration: none;
+}
+
+/* Footer, copyright, name, sate, etc */
+footer {
+    background-color: #ffb703;
+    text-align: center;
+}
