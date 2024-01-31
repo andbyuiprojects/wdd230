@@ -1,0 +1,38 @@
+@media (min-width: 650px) {
+
+    /* Navigation menu */
+    nav ul {
+        display: flex;
+    }
+
+    /* Navigation menu */
+    nav ul li {
+        flex: 1 1 100%
+    }
+
+    /* Learning Activities and Information sections */
+    main{
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+    }
+
+    /* hide menu button */
+    #menu {
+        display: none; 
+    }
+
+    /* Navigation menu */
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        background-color: #8EB5CD;
+        text-align: center;
+    }
+    
+    /* Navigation menu list items */
+    .navigation li a {
+        padding: .5rem;
+        text-align: center;
+    }
+}
