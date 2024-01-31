@@ -1,16 +1,15 @@
 @media (min-width: 650px) {
 
-    /* Navigation menu */
-    nav ul {
+    /* Navigation menu list items */
+    .navigation a {
+        flex: 1 1 100%;
         display: flex;
+        padding: .5rem;
+        text-align: center;
+        justify-content: center;
     }
 
-    /* Navigation menu */
-    nav ul li {
-        flex: 1 1 100%
-    }
-
-    /* Learning Activities and Information sections */
+    /* Main content of the page */
     main{
         grid-template-columns: 1fr 1fr;
         grid-gap: 1rem;
@@ -25,14 +24,15 @@
     .navigation {
         display: flex;
         flex-direction: row;
-        list-style: none;
         background-color: #8EB5CD;
         text-align: center;
+        align-items: center;
+    }
+
+    #join {
+        position: absolute;
+        top: 19%;
+        left: 1.5%
     }
     
-    /* Navigation menu list items */
-    .navigation li a {
-        padding: .5rem;
-        text-align: center;
-    }
 }
