@@ -1,0 +1,42 @@
+@media screen and (460px <= width <= 799px) {
+
+    /* Main content of the page */
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+    }
+
+    #hero-img, #spotlight {
+        grid-column: 1/-1;
+    }
+
+    #current-events {
+        grid-column: 1/-1;
+    }
+
+    #spotlight {
+        grid-column: -1/2;
+    }
+
+    /* hide menu button */
+    #menu {
+        display: none; 
+    }
+
+    /* Navigation menu */
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        background-color: #8EB5CD;
+        align-items: center;
+    }
+
+    #join {
+        position: absolute;
+        font-size: small;
+        top: 14.5%;
+        left: 1%;
+        background-color: #85B36B;
+    }    
+  }
