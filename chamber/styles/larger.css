@@ -1,4 +1,4 @@
-@media (min-width: 650px) {
+@media (min-width: 800px) {
 
     /* Navigation menu list items */
     .navigation a {
@@ -11,8 +11,13 @@
 
     /* Main content of the page */
     main{
+        display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 1rem;
+    }
+
+    #hero-img, #spotlight {
+        grid-column: 1/-1;
     }
 
     /* hide menu button */
@@ -31,8 +36,9 @@
 
     #join {
         position: absolute;
-        top: 19%;
-        left: 1.5%
-    }
-    
+        top: 14.2%;
+        left: .5%;
+        font-size: large;
+        background-color: #85B36B;
+    }    
 }
