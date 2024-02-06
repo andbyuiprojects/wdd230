@@ -43,6 +43,7 @@ header {
     padding: 10px 24px;
     border: 2px solid black;
     transition-duration: 0.4s;
+    cursor: pointer;
 }
 
 /* Join button (hovering) */
@@ -99,6 +100,14 @@ footer {
     padding-bottom: 1px;
 }
 
+/* Dark mode button */
+#mode {
+    position: absolute;
+	cursor: pointer;
+    font-size: 3rem;
+    font-size: 2rem;
+}
+
 /**************** Small View (mobile) ****************/
 
 /* Title section */
@@ -118,9 +127,10 @@ h1 {
     border: 1px solid rgba(0, 0, 0, 0.3);
     background-color: #ffb703;
     color: #000;
-    position:static;
+    position: static;
     aspect-ratio: 1/1;
     margin-right: 10px;
+    cursor: pointer;
 }
 
 /* Navigation menu icon open */
@@ -165,4 +175,10 @@ h1 {
     left: 4%;
     font-size: small;
     background-color: #8EB5CD;
+}
+
+/* Dark mode button */
+#mode {
+	top: 3rem;
+	right: .5rem;
 }

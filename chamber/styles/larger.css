@@ -40,5 +40,11 @@
         left: .5%;
         font-size: large;
         background-color: #85B36B;
-    }    
+    } 
+    
+    /* Dark mode button */
+    #mode {
+        top: 1rem;
+        right: 1rem;
+    }
 }
