@@ -52,6 +52,7 @@ modeButton.addEventListener("click", () => {
 		main.style.color = "#000";
 		footer.style.color = "#000";
 
+		home.style.color = "#000";
 		discover.style.color = "#000";
 		directory.style.color = "#000";
 		join.style.color = "#000";
