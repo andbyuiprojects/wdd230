@@ -29,7 +29,7 @@
     .navigation {
         display: flex;
         flex-direction: row;
-        background-color: #8EB5CD;
+        background-color: var(--primary-color);
         text-align: center;
         align-items: center;
     }
@@ -39,7 +39,7 @@
         top: 14.2%;
         left: .5%;
         font-size: large;
-        background-color: #85B36B;
+        background-color: var(--secondary-color);
     } 
     
     /* Dark mode button */
