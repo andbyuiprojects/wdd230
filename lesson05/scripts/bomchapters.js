@@ -25,6 +25,7 @@ function addChapter(){
         
         // Create a delete button
         const deleteButton = document.createElement('button');
+        deleteButton.setAttribute("aria-label", `Remove ${input.value}`);
 
         // Assigns the input value to a list element
         li.innerHTML = input.value;
