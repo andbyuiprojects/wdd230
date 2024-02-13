@@ -47,6 +47,9 @@ modeButton.addEventListener("click", () => {
 		header.style.background = "#85B36B";
         nav.style.background = "#8EB5CD";
 		footer.style.background = "#ffb703";
+		weather.style.background = "#8EB5CD";
+		currentevents.style.background = "#8EB5CD";
+		spotlight.style.background = "#8EB5CD";
 
 		h1.style.color = "#000";
 		main.style.color = "#000";
