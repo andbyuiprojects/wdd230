@@ -35,18 +35,23 @@
     <!-- Navigation Menu -->
 
     <nav class="navigation">
-
             <a id="home" href="#">Home</a>
             <a id="discover" href=" ">Discover</a>
             <a id="directory" href=" ">Directory</a>
             <a id="joinTab" href=" ">Join</a>
-
     </nav>
     
     <!-- Main section -->
     <main>
+
         <!-- Main image on the page -->
-        <img id="hero-img" src="images/sacramento-california.webp" alt="Sacramento City">
+        <div class="hero">
+            <picture>
+                <source media="(max-width: 400px)" srcset="images/sacramento-california.webp">
+                <source media="(max-width: 960px)" srcset="images/sacramento-california.webp">
+                <img src="images/sacramento-california.webp" alt="Sacramento City">
+            </picture>
+        </div>
 
         <!-- Join button for the commerce -->
         <button id="join" aria-label="Join Commerce Button"></button>

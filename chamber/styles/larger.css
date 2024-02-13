@@ -16,9 +16,20 @@
         grid-gap: 1rem;
     }
 
-    #hero-img, #spotlight {
+    #current-events {
+        grid-column: 1/2;
+    }
+
+    .hero img, #spotlight {
         grid-column: 1/-1;
     }
+
+    .hero img {
+        margin-top: 30px;
+        width: 201%;
+        height: auto;
+    }
+    
 
     /* hide menu button */
     #menu {
@@ -36,11 +47,13 @@
 
     #join {
         position: absolute;
-        top: 14.2%;
+        top: 14.8%;
         left: .5%;
         font-size: large;
         background-color: var(--secondary-color);
     } 
+
+
     
     /* Dark mode button */
     #mode {

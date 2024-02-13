@@ -175,8 +175,10 @@ h1 {
     display: flex;
 }
 
-#hero-img {
+.hero img {
     margin-top: 20px;
+    width: 205%;
+    height: auto;
 }
 
 #join {
