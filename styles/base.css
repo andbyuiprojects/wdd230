@@ -1,10 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Yanone+Kaffeesatz&display=swap');
 
+:root {
+    --primary-color: #84AE98;
+    --secondary-color: #F2CA92;
+    --accent1-color: #DA9781;
+    --accent2-color: #D4E3EC;
+}
+
+/* Entire page */
+body{ 
+    background-color: var(--accent2-color);
+}
+
 /* Top portion with name and picture */
 header {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: #84AE98;
+    background-color: var(--primary-color);
 }
 
 /* Text within the header (name) */
@@ -16,15 +28,19 @@ h1 {
 /* Navigation menu */
 nav {
     margin-bottom: 30px;
-    background-color: #F2CA92;
+    background-color: var(--secondary-color);
     font-size: x-large;
-}
-
-/* Navigation menu */
-nav ul li {
     display: block;
     padding: .5rem;
 }
+
+/* Navigation menu items hover */
+.navigation a:hover {
+    background-color: var(--primary-color);
+    color: black;
+    font-weight: 700;
+}
+
 
 /* Navigation menu links */
 a:link, a:visited {
@@ -40,7 +56,7 @@ h2 {
 
 /* Learning Activities and Information section headings */
 h3 {
-    background-color: #84AE98;
+    background-color: var(--primary-color);
     padding: 10px;
 }
 
@@ -64,24 +80,17 @@ ul {
 
 /* Footer, copyright, name, sate, etc */
 footer {
-    background-color: #DA9781;
-}
-
-/* Profile picture */
-img {
-    max-width: 200px;
-    height: auto;
-    margin: auto;
+    background-color: var(--accent1-color);
 }
 
 /* Makes everything uniform */
 header, nav, main, footer{
-    max-width: 800px;
+    /* max-width: 800px; */
     margin: auto;
 }
 
 /* Makes everything uniform */
-h1, h2, h3, nav, footer {
+h1, h2, h3, footer {
     text-align: center;
 }
 
@@ -134,22 +143,15 @@ h2 {
     display: flex;
     flex-direction: column;
     list-style: none;
-    background-color: #F2CA92;
+    background-color: var(--secondary-color);
     display: none;
 }
 
 /* Navigation menu list items */
-.navigation li a {
+.navigation a {
     display: block;
     padding: .5rem;
     text-align: center;
-}
-
-/* Navigation menu items hover */
-.navigation li a:hover {
-    background-color: #84AE98;
-    color: black;
-    font-weight: 700;
 }
 
 /* Opens the navigation menu */
@@ -168,4 +170,14 @@ h2 {
     margin: auto;
     padding-bottom: 30px;
     max-width: 400px;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+#profile {
+    width: 50%;
+    height: auto;
 }
