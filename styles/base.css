@@ -102,6 +102,8 @@ h1, h2, h3, footer {
 }
 
 
+
+
 /******** Small View (mobile) ********/
 
 /* Name */
@@ -172,11 +174,13 @@ h2 {
     max-width: 400px;
 }
 
-.hero img {
+/* Hero image */
+.hero img{
     width: 100%;
     height: auto;
 }
 
+/* Profile picture */
 #profile {
     width: 50%;
     height: auto;
