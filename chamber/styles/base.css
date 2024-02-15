@@ -175,12 +175,24 @@ h1 {
     display: flex;
 }
 
+/* Hero image */
 .hero img {
     margin-top: 20px;
-    width: 205%;
+    width: 100%;
     height: auto;
 }
 
+/* Label that goes over hero image */
+.herolabel {
+    position: absolute;
+    top: 100px;
+    left: 1px;
+    padding: 1.5rem;
+    font-weight: 450;
+    font-size: 1.2rem;
+}
+
+/* Join button */
 #join {
     position: absolute;
     top: 5.5%;

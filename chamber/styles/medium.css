@@ -7,14 +7,12 @@
         grid-gap: 1rem;
     }
 
-    #hero-img, #spotlight {
-        grid-column: 1/-1;
-    }
-
+    /* Current events card */
     #current-events {
         grid-column: 1/-1;
     }
 
+    /* Spotlight card */
     #spotlight {
         grid-column: -1/2;
     }
@@ -32,6 +30,7 @@
         align-items: center;
     }
 
+    /* Join Button */
     #join {
         position: absolute;
         font-size: small;
@@ -44,5 +43,22 @@
     #mode {
         top: 1rem;
         right: 1rem;
+    }
+
+    /* Hero image */
+    .hero {
+        width: 100%;
+        height: auto;
+        grid-column: 1/3;
+    }
+
+    /* Hero image label (overlay) */
+    .herolabel {
+        position: absolute;
+        top: 163px;
+        left: 1px;
+        padding: 1.5rem;
+        font-weight: 500;
+        font-size: 1.5rem;
     }
   }
