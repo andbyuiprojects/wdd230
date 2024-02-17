@@ -28,20 +28,42 @@
 
     /* Hero image */
     .hero {
-        margin-top: 10px;
+        margin-top: 30px;
         width: 100%;
         height: auto;
         grid-column: 1/3;
+        position: relative;
     }
 
-    /* Hero image label (overlay) */
-    .herolabel {
+    /* Hero image label large (overlay) */
+    .labellrg {
         position: absolute;
-        top: 182px;
-        left: 7px;
         padding: 1rem;
         font-weight: 700;
         font-size: 1.5rem;
+        top: 180px;
+        left: 7px;
+    }
+
+    /* Hero image label medium (overlay) */
+    .labelmed {
+        position: absolute;
+        padding: 1rem;
+        font-weight: 700;
+        font-size: 1.5rem;
+        top: 1462px;
+        left: 7px;
+    }
+
+    /* Hero image label small (overlay) */
+    .labelsm {
+        position: absolute;
+        padding: 1rem;
+        font-weight: 700;
+        font-size: 1.5rem;
+        top: 2740px;
+        left: 7px;
+
     }
 
     /* hide menu button */
