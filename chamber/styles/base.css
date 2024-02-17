@@ -181,35 +181,6 @@ h1 {
     width: 100%;
     height: auto;
 }
-/* Hero image label large (overlay) */
-.labellrg {
-    position: absolute;
-    padding: 1rem;
-    font-weight: 700;
-    font-size: 1.5rem;
-    top: 92px;
-    left: 4px;
-}
-
-/* Hero image label medium (overlay) */
-.labelmed {
-    position: absolute;
-    padding: 1rem;
-    font-weight: 700;
-    font-size: 1.5rem;
-    top: 382px;
-    left: 4px;
-}
-
-/* Hero image label small (overlay) */
-.labelsm {
-    position: absolute;
-    padding: 1rem;
-    font-weight: 700;
-    font-size: 1.5rem;
-    top: 670px;
-    left: 4px;
-}
 
 /* Join button */
 #join {
