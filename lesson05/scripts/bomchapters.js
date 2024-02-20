@@ -8,7 +8,7 @@ button.addEventListener('click', addChapter);
 
 input.addEventListener("keypress", (e) => {
     // Check if the enter key was pressed
-    if(e.key.lower() == "enter"){
+    if(e.key.toLowerCase() == "enter"){
         
         // Run callback addChapter function
         addChapter();
@@ -50,7 +50,7 @@ function addChapter(){
     
     // Alert the user and focus the input if the input has no value
     else {
-        input.focus();
         alert("Input has no value.");
     }
+    input.focus();
 }
