@@ -62,4 +62,13 @@
         top: 1rem;
         right: 1rem;
     }
+
+    /**************** Discover Page ****************/
+    .sidebar {
+        grid-column: 1/2;
+    }
+
+    .mainarea {
+        grid-column: 2/3;
+    }
 }
