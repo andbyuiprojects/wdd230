@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sacramento Chamber of Commerce</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development, Chamber of Commerce by Andrew Olson">
+    <meta name="author" content="Andrew Olson">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="immages/favicon.ico">
+
+    <!--  Essential META Tags -->
+    <meta property="og:title" content="Sacramento Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/vc_spotlightsacramento_sacramento_st_rf_187559989_1280x640.jpg">
+    <meta property="og:url" content="https://andbyuiprojects.github.io/wdd230/chamber/index.html">
+
+</head>
+
+<body>
+
+    <div id="mode">
+        🌃
+    </div>
+
+    <!-- Main title -->
+    <header>
+        <h1>Sacramento Chamber of Commerce</h1>
+        <button id="menu" aria-label="Menu Button"></button>
+    </header>
+
+    <!-- Navigation Menu -->
+
+    <nav class="navigation">
+            <a id="home" href="#">Home</a>
+            <a id="discover" href=" ">Discover</a>
+            <a id="directory" href=" ">Directory</a>
+            <a id="joinTab" href=" ">Join</a>
+    </nav>
+    
+    <!-- Main section -->
+    <main>
+
+        <!-- Main image on the page -->
+        <!-- <div class="hero">
+            <picture>
+                <source media="(max-width: 400px)" srcset="images/sacramento-california.webp">
+                <source media="(max-width: 960px)" srcset="images/sacramento-california.webp">
+                <img src="images/sacramento-california.webp" alt="Sacramento City">
+            </picture>
+        </div> -->
+        <div class="hero">
+            <div>
+                <picture>
+                    <source media="(max-width: 490px)" srcset="images/small.webp">
+                    <source media="(max-width: 900px)" srcset="images/medium.webp">
+                    <img src="images/large.webp" alt="People sitting in interview" width="1500" height="1000">
+                </picture>
+            </div>
+        </div>
+
+        <!-- Join button for the commerce -->
+        <button id="join" aria-label="Join Commerce Button"></button>
+
+        <!-- Current events section -->
+        <section class="card" id="current-events">
+            <h2 id="curr">Current Events</h2>
+            <p>Current events will go here</p>
+        </section>
+
+        <!-- Weather section -->
+        <section class="card" id="weather">
+            <h2 id="weath">Weather</h2>
+            <p>The weather will go here, but it is for sure going to be warmer then Rexburg.</p>
+            <p id="windchill">Wind Chill: </p>
+        </section>
+
+        <!-- Spotlight/add section -->
+        <section class="card" id="spotlight">
+            <h2 id="spot">Spotlight</h2>
+            <p>The spotlight advertisements will go here</p>
+        </section>
+
+    </main>
+
+    <!-- Footer, containing copy write info, name, contact info, and last modified -->
+    <footer>
+        <p>Contact info: (916)-867-5309</p>
+        <p>Email: chamberofcommerce@email.com</p>
+        <!-- <p>&copy;</p> -->
+        <p>Andrew Olson</p>
+        <p>This is for the WDD 230 class project.</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <!-- For JS file -->
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/menubutton.js"></script>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/windchill.js"></script>
+
+
+</body>
+
+</html>
