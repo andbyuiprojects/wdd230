@@ -99,6 +99,7 @@ h1, h2, h3, footer {
     display: block;
     margin: auto;
     padding-bottom: 30px;
+    border: none;
 }
 
 /******** Small View (mobile) ********/
