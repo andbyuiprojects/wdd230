@@ -36,17 +36,34 @@
 
     <nav class="navigation">
             <a id="home" href="index.html">Home</a>
-            <a id="discover" href=" ">Discover</a>
+            <a id="discover" href="#">Discover</a>
             <a id="directory" href=" ">Directory</a>
             <a id="joinTab" href=" ">Join</a>
     </nav>
     
     <!-- Main section -->
-    <main>
-        <section class="sidebar">
-            <h2>Demographic</h2>
-            <p>Population: 530,000</p>
-            <p>Median Household income: $79k </p>
+    <main id="main-discover">
+
+        <section class="sidebar" id="attractions">
+            <h2>Attractions</h2>
+            <p>
+                The California State Capitol is the seat of the California state government, located in Sacramento, the state capital of California. 
+                The building houses the chambers of the California State Legislature, made up of the Assembly and the Senate, 
+                along with the office of the governor of California.
+            </p>
+            <p>
+                Old Sacramento Waterfront is a unique 28-acre National Historic Landmark District and State Historic Park 
+                that lives in homage to California's beginning with the Gold Rush of 1849. The district is located along the beautiful Sacramento River.
+            </p>
+            <p>
+                Sutter's Fort was a popular emigrant destination. The generous Sutter provided shelter and supplies to many weary settlers. 
+                Others became skilled workers at the fort. Sutter and his employees helped rescue the Donner Party in 1847.
+                Established in 1839, the site of the fort was originally called New Helvetia by its builder John Sutter.
+            </p>
+            <p>
+                The Sacramento River is the principal river of Northern California in the United States and is the largest river in California. 
+                Rising in the Klamath Mountains, the river flows south for 400 miles before reaching the Sacramento-San Joaquin River Delta and San Francisco Bay.
+            </p>
         </section>
 
         <section class="sidebar">
@@ -55,51 +72,59 @@
         </section>
 
         <section class="sidebar">
-            <h2>Attractions</h2>
-            <p>This is a placeholder for the attractions info</p>
+            <h2>Demographic</h2>
+            <p>Population: 530,000</p>
+            <p>Median Household income: $79k </p>
         </section>
-       
-        <section class="mainarea">
+
+
+
+        <section class="sidebar">
+            <h2>Page Visits</h2>
+            <span>
+                <p id="message"></p>
+            </span>
+    
+            <p><span class="label">Number of Page Visits: </span><span class="visits"></span></p>
+            
+        </section>
+        
+        <section class="imagesarea">
             <picture>
-                <p>pic1</p>
-                <img src="https://picsum.photos/seed/picsum/400/600" 
-                 alt="Placeholder Static Random Image" loading="lazy"
-                 width="400px" height="600px">
+                <!-- <p>pic1</p> -->
+                
+                <img class="discover-img" src="images/capital.webp" 
+                 alt="Sacramento State Capital building">
             </picture>
 
             <picture>
-                <p>pic2</p>
-                <img src="https://picsum.photos/seed/picsum/400/600" 
-                 alt="Placeholder Static Random Image" loading="lazy"
-                 width="400px" height="600px">
+                <!-- <p>pic2</p> -->
+                <img class="discover-img" src="images/sac-city.webp" 
+                 alt="Arial view of Sacramento">
             </picture>
 
             <picture>
-                <p>pic3</p>
-                <img src="https://picsum.photos/seed/picsum/400/600" 
-                 alt="Placeholder Static Random Image" loading="lazy"
-                 width="400px" height="600px">
+                <!-- <p>pic3</p> -->
+                <img class="discover-img" src="images/sutters-fort.webp" 
+                 alt="Sutters Fort">
             </picture>
 
             <picture>
-                <p>pic4</p>
-                <img src="https://picsum.photos/seed/picsum/400/600" 
-                 alt="Placeholder Static Random Image" loading="lazy"
-                 width="400px" height="600px">
+                <!-- <p>pic4</p> -->
+                <img class="discover-img" src="images/kings.webp" 
+                 alt="Golden1 Center" loading="lazy">
             </picture>
 
             <picture>
-                <p>pic5</p>
-                <img src="https://picsum.photos/seed/picsum/400/600" 
-                 alt="Placeholder Static Random Image" loading="lazy"
-                 width="400px" height="600px">
+                <!-- <p>pic5</p> -->
+                <img class="discover-img" src="images/old-sac-district.webp" 
+                 alt="Old Sacramento" loading="lazy">
             </picture>
 
             <picture>
-                <p>pic6</p>
-                <img src="https://picsum.photos/seed/picsum/400/600" 
-                 alt="Placeholder Static Random Image" loading="lazy"
-                 width="400px" height="600px">
+                <!-- <p>pic6</p> -->
+                <img class="discover-img" src="images/sac-river.webp" 
+                 alt="Sacramento River" loading="lazy">
             </picture>
             
         </section>
@@ -120,6 +145,7 @@
     <script src="scripts/menubutton.js"></script>
     <script src="scripts/darkmode.js"></script>
     <script src="scripts/windchill.js"></script>
+    <script src="scripts/localstorage.js"></script>
 
 
 </body>
