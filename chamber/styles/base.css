@@ -202,3 +202,11 @@ h1 {
 	top: 3rem;
 	right: .5rem;
 }
+
+/**************** Discover Page ****************/
+
+.discover-img{
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+}
