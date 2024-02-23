@@ -20,3 +20,25 @@ numVisits++;
 
 // Stor the new visit to the local storage variable numVisitsLS
 localStorage.setItem("numVisitsLS", numVisits);
+
+document.addEventListener("DOMContentLoaded", function () {
+    const lastVisit = localStorage.getItem("lastVisit");
+  
+    if (lastVisit) {
+      const currentDate = Date.now();
+      const timeDifference = currentDate - parseInt(lastVisit);
+      const daysDifference = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+  
+      const messageElement = document.getElementById("message");
+  
+      if (daysDifference === 0) {
+        messageElement.textContent = "Back so soon! Awesome!";
+      } else {
+        messageElement.textContent = `You last visited ${daysDifference} days ago.`;
+      }
+    } else {
+      localStorage.setItem("lastVisit", Date.now());
+      document.getElementById("message").textContent =
+        "Welcome! Let us know if you have any questions.";
+    }
+});
