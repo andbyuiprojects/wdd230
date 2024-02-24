@@ -12,7 +12,6 @@
     /* Main content of the page */
     main{
         display: grid;
-        grid-template-columns: 1fr 1fr;
         grid-gap: 1rem;
     }
     
@@ -71,10 +70,10 @@
         grid-gap: 1rem;
     }
 
-    #main-discover {
+    .main-discover {
         display: grid;
         grid-template-columns: 400px 1fr;
-      }
+    }
 
     .sidebar {
         grid-column: 1/2;
@@ -92,7 +91,6 @@
         width:100%;
         height: auto;
         display: flex;
-        flex-direction: column;
     }
 
 }
