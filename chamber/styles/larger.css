@@ -87,7 +87,11 @@
         padding: 20px;
     } 
 
-    .discover-img {
+    .imagesarea img:hover{
+        box-shadow: 0 0 80px var(--accent1-color);
+    }
+
+    .discover-img{
         width:100%;
         height: auto;
         display: flex;
