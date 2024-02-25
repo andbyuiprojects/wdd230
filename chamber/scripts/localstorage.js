@@ -5,15 +5,15 @@ const visitsDisplay = document.querySelector(".visits");
 let numVisits = Number(window.localStorage.getItem("numVisitsLS")) || 0;
 
 // If no visits...
-if (numVisits == 0) {
-    // Make show a welcome first time message
-    visitsDisplay.textContent = "Welcome! 🎆This is your first visit!🎆";
-}
+// if (numVisits == 0) {
+//     // Make show a welcome first time message
+//     visitsDisplay.textContent = "Welcome! 🎆This is your first visit!🎆";
+// }
 // If it is not the first time
-else {
-    // Set the visits display equal to the number of visits
-    visitsDisplay.textContent = numVisits;
-}
+// else {
+//     // Set the visits display equal to the number of visits
+//     visitsDisplay.textContent = numVisits;
+// }
 
 // Add the visit
 numVisits++;
@@ -31,14 +31,15 @@ document.addEventListener("DOMContentLoaded", function () {
   
       const messageElement = document.getElementById("message");
   
-      if (daysDifference === 0) {
+      if (daysDifference == 0) {
         messageElement.textContent = "Back so soon! Awesome!";
       } else {
         messageElement.textContent = `You last visited ${daysDifference} days ago.`;
       }
-    } else {
-      localStorage.setItem("lastVisit", Date.now());
-      document.getElementById("message").textContent =
-        "Welcome! Let us know if you have any questions.";
+    } 
+    else {
+        localStorage.setItem("lastVisit", Date.now());
+        document.getElementById("message").textContent =
+          "Welcome! Let us know if you have any questions.";
     }
 });
