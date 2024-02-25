@@ -10,10 +10,10 @@ let numVisits = Number(window.localStorage.getItem("numVisitsLS")) || 0;
 //     visitsDisplay.textContent = "Welcome! 🎆This is your first visit!🎆";
 // }
 // If it is not the first time
-// else {
-//     // Set the visits display equal to the number of visits
-//     visitsDisplay.textContent = numVisits;
-// }
+if (numVisits != 0) {
+    // Set the visits display equal to the number of visits
+    visitsDisplay.textContent = numVisits;
+}
 
 // Add the visit
 numVisits++;
