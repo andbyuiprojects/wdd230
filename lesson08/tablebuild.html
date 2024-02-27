@@ -6,12 +6,70 @@
     <title>HTML Tables for Data Presentation</title>
     <meta name="description" content="WDD 230 - Web Frontend Development HTML Tables by Andrew Olson">
     <meta name="author" content="Andrew Olson">
-    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/tablebuild.css">
 </head>
 
 <body>
-    
-    
+    <main>
+
+        <!--------------------------------------------  
+
+            ACME Wildwest Services
+
+                  |  Basic  | Premium | Deluxe  |
+        Feature 3 |   ✔️   |    ✔️   |   ✔️   |
+        Feature 1 |   ❌   |    ✔️   |   ✔️   |   
+        Feature 2 |   ❌   |    ❌   |   ✔️   |
+
+         -------------------------------------------->
+
+        <table>
+            <caption>Table 1: Account Feature Comparison</caption>
+
+            <thead>
+                <tr>
+                    <th colspan="4" scope="colgroup">ACME Wildwest Services</th>
+                </tr>
+
+                <tr>
+                    <th class="highlight"></th>
+                    <th class="col">Basic</th>
+                    <th class="col">Premium</th>
+                    <th class="col">Deluxe</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Feature 1</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+
+                <tr>
+                    <td>Feature 2</td>
+                    <td>❌</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+
+                <tr>
+                    <td>Feature 3</td>
+                    <td>❌</td>
+                    <td>❌</td>
+                    <td>✔️</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </main>
+
+    <footer>
+        <p>Andrew Olson</p>
+        <p>This is for the WDD 230 Week 08 Learning Activity.</p>
+    </footer>
+        
+
 </body>
 
 </html>
