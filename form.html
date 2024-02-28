@@ -39,7 +39,7 @@
 
     <!-- Main section -->
     <main>
-        <h2>Course Proposal Application</h2>
+        <!-- <h2>Course Proposal Application</h2> -->
 
         <form method="get" action="record.html">
 
@@ -47,23 +47,19 @@
 
                 <legend>Applicant Information</legend>
 
-                <label class="top"> User Name*<input type="text" name="userName" placeholder="User Name" required></label>
-                <label class="top" for="keyphrase">Password*</label>
+                <label> User Name*<input type="text" id="username" name="username" placeholder="User Name" required></label>
 
-                <input type="text" id="keyphrase" name="keyphrase" pattern="[a-zA-Z -]{8,}"
-                    placeholder="At least 8 characters long. No numbers.">
-                <label class="top" for="keyphrase2">Re-enter Your Key Password</label>
-                <input type="text" id="keyphrase2" name="keyphrase2" placeholder="Re-enter password">
-                
-                <label class="top"> Email*<input type="email" name="email" placeholder="email@gmail.com"
-                        pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" required></label>
-                <label class="top"> Phone<input type="tel" name="Phone" placeholder="1238675309"></label>
-                <label for="r">Page Rating</label>
+                <label for="password">Password* <input type="text" id="password" name="password" pattern="[a-zA-Z0-9]{8}" placeholder="Must be at least 8 characters long." required></label>
+                <label for="password2">Re-enter Your Password* <input type="text" id="password2" name="password2" pattern="[a-zA-Z0-9]{8}" placeholder="Re-enter password" required></label>
 
+                <label> Email* <input type="email" id="email" name="email" placeholder="youremail@byui.edu" title="A valid byui.edu email address." pattern="[a-zA-Z0-9_.\-]+@byui.edu" required></label>
+
+                <label> Phone<input type="tel" name="Phone" placeholder="1238675309"></label>
+
+                <label for="range">Page Rating</label>
                 <div id="rangevalue">0</div>
+                <input type="range" id="range" name="range" min="0" max="10" value="0" step="1" list="rangevalues">
 
-                <input class="top" type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="rangevalues">
-               
                 <datalist id="rangevalues">
                     <option value="0">0</option>
                     <option value="1">1</option>
@@ -77,11 +73,12 @@
                     <option value="9">9</option>
                     <option value="10">10</option>
                 </datalist>
-                
-                </fieldset>
 
-            <input type="submit" value="Send My Rating" class="submitBtn">
-            </form>
+            </fieldset>
+
+            <!-- <button type="submit" class="submitBtn">Record</button> -->
+            <input type="submit" value="Record" class="submitBtn">
+        </form>
     </main>
 
 
@@ -96,6 +93,7 @@
     <!-- For JS file -->
     <script src="scripts/getdates.js"></script>
     <script src="scripts/menubutton.js"></script>
+    <script src="scripts/form.js"></script>
 
 </body>
 </html>

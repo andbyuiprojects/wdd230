@@ -1,8 +1,7 @@
 :root {
-    --primary-color: #84AE98;
+    --label-color: ##555;
     --secondary-color: #F2CA92;
     --accent1-color: #DA9781;
-    --accent2-color: #D4E3EC;
 }
 
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
@@ -17,37 +16,21 @@ body {
     font-size: 16px;
 }
 
-
 /*----------- MAIN --------------*/
 main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     padding: 0 2%;
     min-height: 20rem;
 }
 
-h2 {
-    color: black;
-    border-bottom: none;
-    font-weight: 700;
-    font-size: x-large;
-    text-align: left;
-    padding-top: 35px;
-}
-
-form {
-    grid-column: 1/2;
-    text-align: left;
-}
-
-
 /*-------------FORM----------------*/
+
+
 form fieldset {
     margin: 2rem 0;
     border: 10px solid var(--secondary-color);
     border-radius: 10px;
     padding: 0.5rem 2%;
-
 }
 
 form legend{
@@ -56,7 +39,7 @@ form legend{
     padding: 0 .5rem;
 }
 
-form label.top, form div {
+form label, form div {
     display: block;
     padding-top: 1rem;
     color: #9c2c13;
@@ -64,22 +47,23 @@ form label.top, form div {
 
 }
 
-form label.top input, form label.top select{
+form label input, form label select{
     -webkit-appearance: none;
     display: block;
     font-size: 1rem;
     border: #999;
     border-radius: 4px;
     padding: .75rem;
-    color: #555;
+    color: var(--label-color);
     width: 100%;
     max-width: 20rem;
     background-color: rgba(0, 0, 0, .1);
 }
+
 form label.sbs{
     display: block;
     padding: .75rem;
-    color: #555;
+    color: var(--label-color);
 }
 
 form input.submitBtn{
@@ -92,13 +76,28 @@ form input.submitBtn{
     max-width: 20rem;
 }
 
-form label.top input:required {
+form label input:required {
     border-left: red solid 6px;
 }
 
-form label.top input:required:valid {
+form label input:required:valid {
     border-left: green solid 6px;
 }
+
+#rangevalue {
+    margin-bottom: 0;
+}
+
+#rangevalues {
+	display: flex;
+    margin-left: 17px;
+	width: 200px;
+}
+
+#rangevalues option {
+	flex: 1 1 auto;
+}
+
 
 
 
@@ -127,6 +126,27 @@ form label.top input:required:valid {
   form label.sbs {
     padding: .4rem 0;
   }
+
+/*-------------FORM----------------*/
+form {
+    width: 50%;
+    text-align: left;
+}
+
+
+#rangevalue {
+    margin-bottom: 0;
+}
+
+#rangevalues {
+	display: flex;
+    margin-left: 6px;
+	width: 200px;
+}
+
+#rangevalues option {
+	flex: 1 1 auto;
+}
 
 /*----------- FOOTER --------------*/
 
