@@ -1,0 +1,133 @@
+:root {
+    --primary-color: #84AE98;
+    --secondary-color: #F2CA92;
+    --accent1-color: #DA9781;
+    --accent2-color: #D4E3EC;
+}
+
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*----------- BODY --------------*/
+body {
+    font-size: 16px;
+}
+
+
+/*----------- MAIN --------------*/
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2%;
+    min-height: 20rem;
+}
+
+h2 {
+    color: black;
+    border-bottom: none;
+    font-weight: 700;
+    font-size: x-large;
+    text-align: left;
+    padding-top: 35px;
+}
+
+form {
+    grid-column: 1/2;
+    text-align: left;
+}
+
+
+/*-------------FORM----------------*/
+form fieldset {
+    margin: 2rem 0;
+    border: 10px solid var(--secondary-color);
+    border-radius: 10px;
+    padding: 0.5rem 2%;
+
+}
+
+form legend{
+    background-color: var(--secondary-color);
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: .8rem;
+
+}
+
+form label.top input, form label.top select{
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, .1);
+}
+form label.sbs{
+    display: block;
+    padding: .75rem;
+    color: #555;
+}
+
+form input.submitBtn{
+    border: none;
+    background-color: var(--accent1-color);
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
+
+
+/* 64em is also 1028px (if basefont is 16px) */
+@media only screen and (min-width: 45em) {
+
+
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+
+
+
+/*----------- NAVIGATION --------------*/
+  nav ul {margin-left: 2%;}
+  nav ul li {width: auto;}
+  nav ul li:first-child a {border-left: 1px solid #777;}
+  nav ul li:last-child a {border-right: 1px solid #777;}
+  nav ul li a{padding: .5rem 1rem;}
+
+
+/*----------- MAIN --------------*/
+
+  form label.sbs {
+    padding: .4rem 0;
+  }
+
+/*----------- FOOTER --------------*/
+
+} /* end of media query */
