@@ -124,6 +124,11 @@ footer {
     border-radius: 1rem; */
 }
 
+/* The active window icon */
+.active::before {
+    content: "🔰 ";
+}
+
 /**************** Small View (mobile) ****************/
 
 /* Title section */
