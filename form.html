@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrew Olson - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development course assignment portal by Andrew Olson">
+    <meta name="author" content="Andrew Olson">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="icon" href="immages/favicon.ico">
+
+    <!--  Essential META Tags -->
+    <meta property="og:title" content="WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/vc_spotlightsacramento_sacramento_st_rf_187559989_1280x640.jpg">
+    <meta property="og:url" content="https://andbyuiprojects.github.io/wdd230/">
+</head>
+
+<body>
+
+    <!-- Header with profile pic and name -->
+    <header>
+        <img id="profile" src="images/profile-image.webp" alt="profile image">
+        <h1>Andrew Olson</h1>
+    </header>
+
+    <!-- Navigation Menu -->
+    <button id="menu" aria-label="Menu Button"></button>
+    <nav class="navigation">
+        <a class="active" href="#">Home</a>
+        <a href="lesson03/chamber-site-plan.html" target="_blank">Site Plan</a>
+        <a href="chamber/" target="_blank">Chamber</a>
+        <a href="https://www.byui.edu/" target="_blank">BYU-Idaho</a>
+        <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/omni/1?lang=eng&id=p25-p26#p25" target="_blank">Scripture</a>
+    </nav>
+
+    <!-- Main section -->
+    <main>
+        <h2>Course Proposal Application</h2>
+
+        <form method="get" action="record.html">
+
+            <fieldset>
+
+                <legend>Applicant Information</legend>
+
+                <label class="top"> User Name*<input type="text" name="userName" placeholder="User Name" required></label>
+                <label class="top" for="keyphrase">Password*</label>
+
+                <input type="text" id="keyphrase" name="keyphrase" pattern="[a-zA-Z -]{8,}"
+                    placeholder="At least 8 characters long. No numbers.">
+                <label class="top" for="keyphrase2">Re-enter Your Key Password</label>
+                <input type="text" id="keyphrase2" name="keyphrase2" placeholder="Re-enter password">
+                
+                <label class="top"> Email*<input type="email" name="email" placeholder="email@gmail.com"
+                        pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" required></label>
+                <label class="top"> Phone<input type="tel" name="Phone" placeholder="1238675309"></label>
+                <label for="r">Page Rating</label>
+
+                <div id="rangevalue">0</div>
+
+                <input class="top" type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="rangevalues">
+               
+                <datalist id="rangevalues">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>
+                
+                </fieldset>
+
+            <input type="submit" value="Send My Rating" class="submitBtn">
+            </form>
+    </main>
+
+
+    <!-- Footer, containing copy write info, name, state, and last modified -->
+    <footer>
+        <p>&copy; <span id="currentYear"></span></p>
+        <p>Andrew Olson</p>
+        <p>Idaho</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <!-- For JS file -->
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/menubutton.js"></script>
+
+</body>
+</html>
