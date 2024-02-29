@@ -35,15 +35,60 @@
     <!-- Navigation Menu -->
 
     <nav class="navigation">
-            <a id="home" href="#">Home</a>
+            <a id="home" href="index.html">Home</a>
             <a id="discover" href="discover.html">Discover</a>
             <a id="directory" href=" ">Directory</a>
             <a class="active" id="joinTab" href="join.html">Join</a>
     </nav>
     
     <!-- Main section -->
-    <main>
+    <main id="main-discover">
 
+        <!-- MEMBERSHIP INFORMATION -->
+        <section id="sidebar-join">
+            <div class="sidebar">
+                <h2>Non-Profit Membership </h2>
+                <ul>
+                    <li>Website listing.</li>
+                    <li>Monthly news letter</li>
+                    <li>Quarterly business events</li>
+                </ul>
+                <h3>$0 / Month</h3>
+            </div>
+            <div class="sidebar">
+                <h2>Bronze Membership</h2>
+                <ul>
+                    <li>All benefits included above</li>
+                    <li>Networking Events</li>
+                    <li>Spotlight in monthly news letters</li>
+                    <li>Added to the business directory</li>
+                    <li>Conference room availability</li>
+                </ul>
+                <h3>$100 / Month</h3>
+            </div>
+            <div class="sidebar">
+                <h2>Silver Membership</h2>
+                <ul>
+                    <li>All benefits included above</li>
+                    <li>Rotational spotlight on the website homepage</li>
+                    <li>Events and sponsorship opportunities</li>
+                    <li>Committee and community involvement</li>
+                </ul>
+                <h3>$200 / Month</h3>
+            </div>
+            <div class="sidebar">
+                <h2>Gold Membership</h2>
+                <ul>
+                    <li>All benefits included above</li>
+                    <li>Membership exclusive discounts</li>
+                    <li>Access to monthly meetings with city planers, CHamber President, and Mayor</li>
+                    <li>Representative in city counsel meetings</li>
+                </ul>
+                <h3>$300 / Month</h3>
+            </div>
+        </section>
+
+        <!-- FORM -->
         <form method="get" action="thankyou.html">
 
             <fieldset>
@@ -65,16 +110,15 @@
             <fieldset>
                 <legend>Membership</legend>
                 <div>Please select the membership you would like:</div>
-                <label class="sbs"><input type="radio" name="memb" value="NP"> NP Membership (Non-Profit)</label>
-                <label class="sbs"><input type="radio" name="memb" value="Bronze"> Bronze Membership</label>
-                <label class="sbs"><input type="radio" name="memb" value="Silver"> Silver Membership</label>
-                <label class="sbs"><input type="radio" name="memb" value="Gold "> Gold Membership</label>
+                <label class="sbs"><input type="radio" name="member" value="NP"> NP Membership (Non-Profit)</label>
+                <label class="sbs"><input type="radio" name="member" value="Bronze"> Bronze Membership</label>
+                <label class="sbs"><input type="radio" name="member" value="Silver"> Silver Membership</label>
+                <label class="sbs"><input type="radio" name="member" value="Gold "> Gold Membership</label>
             </fieldset>
 
             <fieldset>
                 <legend>Business or Organization's description</legend>
-                                                            <!-- cols="100" -->
-                <textarea name="description" id="description" cols="30" rows="10" placeholder="Please describe your business or organization."></textarea>
+                <textarea class="description" name="description" id="description" cols="30" rows="10" placeholder="Please describe your business or organization."></textarea>
                 <input type="hidden" id="hid" name="hid" required>
             </fieldset>
 
