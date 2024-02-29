@@ -44,8 +44,43 @@
     <!-- Main section -->
     <main>
 
-       
-    </main>
+        <form method="get" action="thankyou.html">
+
+            <fieldset>
+                <legend>Information</legend>
+
+                <label class="top">First Name* <input type="text" id="fname" name="fname" placeholder="First Name" required></label>
+
+                <label class="top">Last Name* <input type="text" id="lname" name="lname" placeholder="Last Name" required></label>
+
+                <label class="top">Title/Position* <input type="text" id="position" name="position" placeholder="Your Title or Position" pattern="[a-zA-Z\- ]{7,}" required></label>
+
+                <label class="top">Email* <input type="email" id="email" name="email" placeholder="youremail@gmail.com" required></label>
+
+                <label class="top">Phone* <input type="tel" id="phone" name="phone" placeholder="1238675309" required></label>
+
+                <label class="top">Business/Organization* <input type="text" id="business" name="business" placeholder="The Business or Organization's Name" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Membership</legend>
+                <div>Please select the membership you would like:</div>
+                <label class="sbs"><input type="radio" name="memb" value="NP"> NP Membership (Non-Profit)</label>
+                <label class="sbs"><input type="radio" name="memb" value="Bronze"> Bronze Membership</label>
+                <label class="sbs"><input type="radio" name="memb" value="Silver"> Silver Membership</label>
+                <label class="sbs"><input type="radio" name="memb" value="Gold "> Gold Membership</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Business or Organization's description</legend>
+                                                            <!-- cols="100" -->
+                <textarea name="description" id="description" cols="30" rows="10" placeholder="Please describe your business or organization."></textarea>
+                <input type="hidden" id="hid" name="hid" required>
+            </fieldset>
+
+            <input type="submit" value="Join Chamber" class="submitBtn">
+
+        </form>
 
     <!-- Footer, containing copy write info, name, contact info, and last modified -->
     <footer>
