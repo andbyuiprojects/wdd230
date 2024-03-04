@@ -9,5 +9,5 @@ async function getProphetData() {
     // Checks the data response at this point in the console window
     console.table(data.prophets);
 }
-
+  
 getProphetData();
