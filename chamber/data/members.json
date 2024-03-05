@@ -1,0 +1,67 @@
+{
+    "businesses": [
+        {
+            "name": "Sutter Health",
+            "address" : "2200 River Plaza Dr, Sacramento, CA 95833",
+            "phone" : "(916)-733-8800",
+            "website" : "https://www.sutterhealth.org/smf",
+            "icon" : "https://tukuz.com/wp-content/uploads/2020/02/sutter-health-logo-vector.png",
+            "membership" : "Gold",
+            "joined" : "2010"
+        },
+        {
+            "name": "Caltrans",
+            "address" : "1120 N St, Sacramento, CA 95814",
+            "phone" : "(916)-654-2852",
+            "website" : "https://dot.ca.gov/",
+            "icon" : "https://dot.ca.gov/-/media/dot-media/images/logos/caltrans/caltranslogo.png?mw=300&hash=0540FA4538E34376D54F5CE31E454E45",
+            "membership" : "Non-Prophet",
+            "joined" : "2012"
+        },        
+        {
+            "name": "SMUD",
+            "address" : "6201 S St, Sacramento, CA 95817",
+            "phone" : "(888)-742-7683",
+            "website" : "https://www.smud.org/",
+            "icon" : "https://www.smud.org/images/smudLogo.svg",
+            "membership" : "Gold",
+            "joined" : "2010"
+        },
+        {
+            "name": "Aerojet Rocketdyne",
+            "address" : "2001 Aerojet Road Rancho, Rancho Cordova, CA 95742",
+            "phone" : "(916)-355-4000",
+            "website" : "https://www.l3harris.com/company/aerojet-rocketdyne",
+            "icon" : "https://1000logos.net/wp-content/uploads/2020/09/Aerojet-Rocketdyne-Logo.png",
+            "membership" : "Bronze",
+            "joined" : "2016"
+        },
+        {
+            "name": "Golden 1 Credit Union",
+            "address" : "8945 Cal Center Dr, Sacramento, CA 95826",
+            "phone" : "(877)-465-3361",
+            "website" : "https://www.golden1.com/",
+            "icon" : "https://www.golden1.com/-/media/golden1/brand-logos/golden1_logo.svg?iar=0&rev=905f15247e8a4ec2a6fab922f1a5a494&extension=webp&hash=B9CD676EFA838BD9C3D6C73EA95B27F6",
+            "membership" : "Silver",
+            "joined" : "2015"
+        },
+        {
+            "name": "Blue Diamond Growers",
+            "address" : "1802 C St, Sacramento, CA 95811",
+            "phone" : "(916)-442-0771",
+            "website" : "https://bluediamondgrowers.com/",
+            "icon" : "https://bluediamondgrowers.com/wp-content/uploads/2023/04/logo-registered-2x.png",
+            "membership" : "Gold",
+            "joined" : "2018"
+        },        
+        {
+            "name": "UC Davis Health",
+            "address" : "4301 X St, Sacramento, CA 95817",
+            "phone" : "916-734-2011",
+            "website" : "https://health.ucdavis.edu/medical-center/",
+            "icon" : "https://health.ucdavis.edu/assets/images/wordmarks/UCDavisHealth.svg",
+            "membership" : "Silver",
+            "joined" : "2013"
+        }
+    ]
+}
