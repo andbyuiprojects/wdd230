@@ -16,14 +16,16 @@
             "links": 
             [
                 {
-                    "url": "",
-                    "title": ""                
-                },                {
-                    "url": "",
-                    "title": ""                
-                },                {
-                    "url": "",
-                    "title": ""                
+                    "url": "lessons/lesson02/design.html",
+                    "title": "Design Layout"                
+                },                
+                {
+                    "url": "lessons/lesson01/media-query.html",
+                    "title": "Media Query"                
+                },                
+                {
+                    "url": "lessons/lesson02/design-principles.html",
+                    "title": "Design Principles"                
                 }
             ]
         },
@@ -32,14 +34,16 @@
             "links": 
             [
                 {
-                    "url": "",
-                    "title": ""                
-                },                {
-                    "url": "",
-                    "title": ""                
-                },                {
-                    "url": "",
-                    "title": ""                
+                    "url": "lessons/lesson03/images/css-combinators.jpg",
+                    "title": "CSS Combinators"                
+                },                
+                {
+                    "url": "https://codepen.io/ornack/pen/MWxvXLe",
+                    "title": "CSS Pseudo-elements"                
+                },                
+                {
+                    "url": "https://codepen.io/ornack/pen/ZEPJjVx",
+                    "title": "Responsive Hamburger Menu"                
                 }
             ]
         },
@@ -48,8 +52,8 @@
             "links": 
             [
                 {
-                    "url": "",
-                    "title": ""                
+                    "url": "https://codepen.io/ornack/pen/MWxrLBL",
+                    "title": "CSS Pseudo-Classes"                
                 }
             ]
         },
@@ -58,8 +62,8 @@
             "links": 
             [
                 {
-                    "url": "",
-                    "title": ""                
+                    "url": "lessons/lesson05/bom.html",
+                    "title": "Book of Mormon Favorite Chapters"                
                 }
             ]
         },
@@ -68,11 +72,12 @@
             "links": 
             [
                 {
-                    "url": "",
-                    "title": ""                
-                },                {
-                    "url": "",
-                    "title": ""                
+                    "url": "lessons/lesson06/images/landscape.webp",
+                    "title": "WebP"                
+                },                
+                {
+                    "url": "lessons/lesson06/resonsive-images.html",
+                    "title": "Responsive Images: srcset"                
                 }
             ]
         },
@@ -81,11 +86,12 @@
             "links": 
             [
                 {
-                    "url": "",
-                    "title": ""                
-                },                {
-                    "url": "",
-                    "title": ""                
+                    "url": "lessons/lesson07/lazyload.html",
+                    "title": "Lazy Loading"                
+                },                
+                {
+                    "url": "lessons/lesson07/bom.html",
+                    "title": "Web Storage API - localStorage"                
                 }
             ]
         },
@@ -94,11 +100,12 @@
             "links": 
             [
                 {
-                    "url": "",
-                    "title": ""                
-                },                {
-                    "url": "",
-                    "title": ""                
+                    "url": "lessons/lesson08/tablebuild.html",
+                    "title": "HTML Tables for Data Presentation"                
+                },                
+                {
+                    "url": "lessons/lesson08/form-start/index.html",
+                    "title": "HTML Forms"                
                 }
             ]
         },
@@ -107,15 +114,14 @@
             "links": 
             [
                 {
-                    "url": "",
-                    "title": ""                
-                },                {
-                    "url": "",
-                    "title": ""                
+                    "url": "lessons/lesson09/new-ward-members.json",
+                    "title": "JSON"                
+                },                
+                {
+                    "url": "lessons/lesson09/prophets.html",
+                    "title": "Fetch API"                
                 }
             ]
         }
-
-
     ]
 }
