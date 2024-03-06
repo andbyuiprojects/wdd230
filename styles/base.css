@@ -102,6 +102,24 @@ h1, h2, h3, footer {
     border: none;
 }
 
+#cards {
+    text-align: left;
+}
+
+#cards li a{
+    margin-right: 10px;
+    border: 4px groove var(--primary-color);
+    /* Top, right, bottom, left */
+    padding: .1rem .5rem .1rem .5rem;
+    border-radius: 1rem;
+    
+}
+
+#cards p {
+    font-weight: 700;
+}
+
+
 /******** Small View (mobile) ********/
 
 /* Name */
