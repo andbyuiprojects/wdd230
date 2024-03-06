@@ -108,11 +108,17 @@ h1, h2, h3, footer {
 
 #cards li a{
     margin-right: 10px;
-    border: 4px groove var(--primary-color);
+    border: 4px double #c79e65;
     /* Top, right, bottom, left */
     padding: .1rem .5rem .1rem .5rem;
     border-radius: 1rem;
-    
+}
+
+#cards li a:hover {
+    background-color: var(--secondary-color);
+    color: black;
+    font-weight: 700;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 #cards p {
