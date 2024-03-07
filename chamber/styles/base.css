@@ -130,6 +130,69 @@ footer {
     content: "🔰 ";
 }
 
+/**************** Directory Page ****************/
+
+.menu {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
+  border-radius: .2rem;
+  background-color: var(--primary-color);
+  text-align: center;
+}
+
+.menu button {
+  padding: 1rem;
+  font-weight: 700;
+}
+
+section {
+  padding: 0.5rem;
+  background-color: white;
+}
+
+#cards {
+  display: grid;
+  grid-gap: 5px;
+  align-items: center;
+}
+
+#cards section {
+  text-align: center;
+  margin-bottom: .3rem;
+}
+
+#cards img {
+  border: 1px solid #fff;
+  box-shadow: 0 0 10px #333;
+  height: 75px;
+  max-width: 100%;
+}
+
+#cards section > * {
+  margin: 0.1rem;
+}
+
+.list-directory section {
+  display: grid;
+  gap: 10px;
+  padding: 0.25rem;
+  width: 100%;
+}
+
+.list-directory section > * {
+  margin: 0 1rem;
+}
+
+section p {
+  font-weight: 600;
+  font-size: smaller;
+}
+
+section a {
+  font-size: 0.85rem;
+  letter-spacing: 1.1pt;
+}
+
 /**************** Small View (mobile) ****************/
 
 /* Title section */
@@ -301,4 +364,10 @@ form label.top input:required:valid {
 
 #thankyou-main {
     display: block;
+}
+
+/**************** Directory Page ****************/
+
+.list-directory section img {
+    display: none;
 }

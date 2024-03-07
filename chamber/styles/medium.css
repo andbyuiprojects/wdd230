@@ -84,4 +84,25 @@
         height: auto;
         display: flex;
     }
+
+    /**************** Directory Page ****************/
+    .menu {
+        grid-column: 1/4;
+        padding: 0.5rem;
+        text-align: center;
+    }
+
+    #cards {
+        display: grid;
+        grid-gap: 5px;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        grid-column: 1/4;
+    }
+
+    .list-directory section {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column: 1/4;
+    }
 }

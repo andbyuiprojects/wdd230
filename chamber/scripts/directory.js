@@ -58,3 +58,10 @@ gridbutton.addEventListener("click", () => {
 	display.classList.add("grid-directory");
 	display.classList.remove("list-directory");
 });
+
+listbutton.addEventListener("click", showList);
+
+function showList() {
+    display.classList.add("list-directory");
+    display.classList.add("grid-directory");
+}
