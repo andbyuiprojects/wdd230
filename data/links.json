@@ -128,12 +128,8 @@
             "links": 
             [
                 {
-                    "url": "",
-                    "title": ""                
-                },                
-                {
-                    "url": "",
-                    "title": ""                
+                    "url": "lessons/lesson10/weather.html",
+                    "title": "Consuming a Weather API"                
                 }
             ]
         }
