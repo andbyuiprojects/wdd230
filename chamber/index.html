@@ -45,14 +45,14 @@
     <main>
 
         <!-- Main image on the page -->
-        <!-- <div class="hero">
+        <div class="hero">
             <picture>
                 <source media="(max-width: 400px)" srcset="images/sacramento-california.webp">
                 <source media="(max-width: 960px)" srcset="images/sacramento-california.webp">
-                <img src="images/sacramento-california.webp" alt="Sacramento City">
+                <img src="images/sacramento-california.webp" loading="lazy" alt="Sacramento City">
             </picture>
-        </div> -->
-        <div class="hero">
+        </div>
+        <!-- <div class="hero">
             <div>
                 <picture>
                     <source media="(max-width: 490px)" srcset="images/small.webp">
@@ -60,7 +60,7 @@
                     <img src="images/large.webp" alt="People sitting in interview" width="1500" height="1000">
                 </picture>
             </div>
-        </div>
+        </div> -->
 
         <!-- Join button for the commerce -->
         <button id="join" aria-label="Join Commerce Button"></button>
@@ -72,10 +72,52 @@
         </section>
 
         <!-- Weather section -->
-        <section class="card" id="weather">
+        <section class="card" id="weather-card">
             <h2 id="weath">Weather</h2>
-            <p>The weather will go here, but it is for sure going to be warmer then Rexburg.</p>
-            <p id="windchill">Wind Chill: </p>
+            <h3>Sacramento California</h3>
+
+            <!-- Current Weather -->
+            <div class="weather" id="weather-current">
+                <h4>Current</h4>
+                <h4><span id="current-temp"></span></h4>
+                <figure>
+                    <img id="weather-icon" alt="Weather Icon">
+                    <figcaption id="figcaption" class="weather-figcaption"></figcaption>
+                </figure>
+            </div>
+
+            <h3>Forecast 3 days</h3>
+            <section class="weather" id="weather-forecast">
+                <!-- Day 1 -->
+                <div>
+                    <h4><span id="forecast-day1"></span></h4>
+                    <h4><span id="forecast-temp-day1"></span></h4>
+                    <figure>
+                        <img id="weather-icon-day1" class="w-icon" alt="weather icon">
+                        <figcaption id="figcaption-day1" class="weather-figcaption"></figcaption>
+                    </figure>
+                </div>
+
+                <!--Day 2 -->
+                <div>
+                    <h4><span id="forecast-day2"></span></h4>
+                    <h4><span id="forecast-temp-day2"></span></h4>
+                    <figure>
+                        <img id="weather-icon-day2" class="w-icon" alt="Weather Icon">
+                        <figcaption id="figcaption-day2" class="weather-figcaption"></figcaption>
+                    </figure>
+                </div>
+
+                <!-- Day 3 -->
+                <div>
+                    <h4><span id="forecast-day3"></span></h4>
+                    <h4><span id="forecast-temp-day3"></span></h4>
+                    <figure>
+                        <img id="weather-icon-day3" class="w-icon" alt="Weather Icon">
+                        <figcaption id="figcaption-day3" class="weather-figcaption"></figcaption>
+                    </figure>
+                </div>
+            </section>
         </section>
 
         <!-- Spotlight/add section -->
@@ -101,6 +143,7 @@
     <script src="scripts/menubutton.js"></script>
     <script src="scripts/darkmode.js"></script>
     <script src="scripts/windchill.js"></script>
+    <script src="scripts/weather.js"></script>
 
 
 </body>
