@@ -1,5 +1,9 @@
 @media screen and (501px <= width <= 799px) {
 
+    header {
+        padding: .5rem;
+    }
+
     /* Main content of the page */
     main{
         display: grid;

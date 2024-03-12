@@ -1,5 +1,9 @@
 @media (min-width: 800px) {
 
+    header {
+        padding: .5rem;
+    }
+
     /* Navigation menu list items */
     .navigation a {
         flex: 1 1 100%;

@@ -196,6 +196,7 @@ footer {
 header{
     display: grid;
     grid-template-columns: 90% 10%;
+    padding-bottom: 2rem;
 }
 
 /* Title */
@@ -248,7 +249,7 @@ h1 {
 }
 
 /* Hero image */
-.hero img{
+.hero img, .discover-img{
     margin-top: 10px;
     width: 100%;
     height: auto;
@@ -271,11 +272,11 @@ h1 {
 
 /**************** Discover Page ****************/
 
-.discover-img{
+/* .discover-img{
     margin-top: 10px;
     width: 100%;
     height: auto;
-}
+} */
 
 /**************** Join Page ****************/
 
