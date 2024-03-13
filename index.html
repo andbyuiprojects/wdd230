@@ -62,7 +62,21 @@
         <section class="card">
             <h3>Information</h3>
             
-            <p>Weather</p>
+            <!-- Weather section -->
+            <section id="weather-card">
+                <h2>Weather</h2>
+                <h4 class="weather-title">Rexburg Idaho</h4>
+
+                <!-- Current Weather -->
+                <div class="weather" id="weather-current">
+                    <h4><span id="current-temp"></span></h4>
+                    <figure id="weather-fig">
+                        <img id="weather-icon" alt="Weather Icon">
+                        <figcaption id="figcaption" class="weather-figcaption"></figcaption>
+                    </figure>
+                </div>
+            </section>
+
             <p><span class="label">Page Visits: </span><span class="visits"></span></p>
  
         </section>
@@ -85,6 +99,7 @@
     <script src="scripts/menubutton.js"></script>
     <script src="scripts/localstorage.js"></script>
     <script src="scripts/links.js"></script>
+    <script src="scripts/weather.js"></script>
 
 </body>
 </html>

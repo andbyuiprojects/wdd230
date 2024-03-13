@@ -125,6 +125,17 @@ h1, h2, h3, footer {
     font-weight: 700;
 }
 
+#weather-card {
+    border: 8px double var(--primary-color);
+    border-radius: .5rem;
+    margin-bottom: 3rem;
+}
+
+#weather-card:hover {
+    background-color: #F2CA92;
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
 
 /******** Small View (mobile) ********/
 
