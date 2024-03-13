@@ -67,10 +67,14 @@
         right: 1rem;
     }
 
+    #weather-forecast {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
     /**************** Discover Page ****************/
 
     .main-discover {
-        display: grid;
         grid-template-columns: 400px 1fr;
     }
 
@@ -114,7 +118,6 @@
     }
 
     #cards {
-        display: grid;
         grid-gap: 5px;
         align-items: center;
         grid-template-columns: 1fr 1fr;
@@ -122,10 +125,7 @@
     }
 
     .list-directory section {
-        display: grid;
         grid-template-columns: 1fr;
         grid-column: 1/4;
     }
-
-
 }

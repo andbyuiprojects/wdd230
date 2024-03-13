@@ -130,6 +130,26 @@ footer {
     content: "🔰 ";
 }
 
+.weather-title {
+    text-decoration-line: underline;
+}
+
+.weather-forecast, #weather-current {
+    border: 10px groove var(--primary-color);
+    border-radius: .5rem;
+}
+
+.weather-forecast:hover, #weather-current:hover {
+    background-color: #F2CA92;
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.weather-forecast {
+    margin: 0 1rem 1rem 1rem;
+}
+
+
 /**************** Directory Page ****************/
 
 .menu {
