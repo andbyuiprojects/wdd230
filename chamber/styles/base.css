@@ -6,6 +6,7 @@
     --secondary-color: #85B36B;
     --accent1-color: #ffb703;
     --accent2-color: #D6CBD9;
+    --accent3-color: #F2CA92;
 }
 
 /* Entire page */
@@ -24,7 +25,7 @@ header {
 
 /* Navigation menu */
 .navigation {
-    margin-bottom: 30px;
+    margin-bottom: .2rem;
     background-color: var(--primary-color);
     font-size: x-large;
     display: block;
@@ -138,7 +139,7 @@ footer {
 }
 
 .weather-forecast:hover, #weather-current:hover {
-    background-color: #F2CA92;
+    background-color: var(--accent3-color);
     color: black;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
@@ -147,8 +148,20 @@ footer {
     margin: 0 1rem 1rem 1rem;
 }
 
+#announcement {
+    display: flex;
+    justify-content: center;
+    grid-column: 1/4;
+    border: 8px groove var(--accent2-color);
+    font-family: 'Lato', sans-serif;
+    background-color: var(--accent3-color);
+}
 
-
+.close-button {
+    background-color: var(--accent3);
+    cursor: pointer;
+    font-size: x-large;
+}
 
 /**************** Directory Page ****************/
 
@@ -292,11 +305,6 @@ h1 {
 
 /**************** Discover Page ****************/
 
-/* .discover-img{
-    margin-top: 10px;
-    width: 100%;
-    height: auto;
-} */
 
 /**************** Join Page ****************/
 

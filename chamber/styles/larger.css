@@ -72,6 +72,10 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
+    .close-button {
+        margin-left: 1rem;
+    }
+
     /**************** Discover Page ****************/
 
     .main-discover {

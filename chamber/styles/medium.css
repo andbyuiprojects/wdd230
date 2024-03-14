@@ -57,6 +57,10 @@
         grid-column: 1/3;
     }
 
+    .close-button {
+        margin-left: 1rem;
+    }
+
     /**************** Discover Page ****************/
     main {
         display: grid;
