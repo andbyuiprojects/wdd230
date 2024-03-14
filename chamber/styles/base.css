@@ -397,3 +397,7 @@ form label.top input:required:valid {
 .list-directory section img {
     display: none;
 }
+
+#cards {
+    margin: auto;
+}
