@@ -96,7 +96,7 @@
         text-align: center;
     }
 
-    #cards {
+    .grid-directory {
         display: grid;
         grid-gap: 5px;
         align-items: center;
