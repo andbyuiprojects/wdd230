@@ -33,15 +33,6 @@
         background-color: var(--primary-color);
         align-items: center;
     }
-
-    /* Join Button */
-    #join {
-        position: absolute;
-        font-size: small;
-        top: 14.5%;
-        left: 1%;
-        background-color: var(--secondary-color);
-    }   
     
     /* Dark mode button */
     #mode {

@@ -51,15 +51,6 @@
         text-align: center;
         align-items: center;
     }
-
-    /* Join button */
-    #join {
-        position: absolute;
-        top: 14.8%;
-        left: .5%;
-        font-size: large;
-        background-color: var(--secondary-color);
-    }
     
     /* Dark mode button */
     #mode {
