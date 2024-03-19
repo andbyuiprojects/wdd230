@@ -105,13 +105,18 @@ footer {
     content: "🔰 ";
 }
 
-.weather-title {
-    text-decoration-line: underline;
-}
 
 .weather-forecast, #weather-current {
     border: 10px groove var(--primary-color);
     border-radius: .5rem;
+}
+
+#weather-forecast, #weather-current, .weather-title{
+    font-size: 1.3em;
+}
+
+.weather-title{
+    font-size: 1.5em;
 }
 
 .weather-forecast:hover, #weather-current:hover {
