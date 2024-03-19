@@ -8,7 +8,7 @@
     <meta name="author" content="Andrew Olson">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/large.css">
 
     <!--  Essential META Tags -->
     <meta property="og:title" content="WDD 230 - Web Frontend Development">
@@ -37,8 +37,7 @@
 
     <!-- Header with profile pic and name -->
     <header>
-        <img id="profile" src="images/profile-image.webp" alt="profile image">
-        <h1>Andrew Olson</h1>
+        <h1>Scoots Scooter Rentals 🛵</h1>
     </header>
 
     <!-- Navigation Menu -->
@@ -52,35 +51,33 @@
 
     <!-- Main section -->
     <main>
+
+        <!-- Main image on the page -->
         <div class="hero">
             <picture>
-                <source media="(max-width: 400px)" srcset="scoots/images/scooters-beach.webp">
-                <source media="(max-width: 960px)" srcset="scoots/images/scooters-beach.webp">
-                <img src="scoots/images/scooters-beach.webp" alt="Scooters at the beach">
+                <source media="(max-width: 400px)" srcset="images/scooters-beach.webp">
+                <source media="(max-width: 960px)" srcset="images/scooters-beach.webp">
+                <img src="images/scooters-beach.webp" loading="lazy" alt="Scooters at the beach">
             </picture>
         </div>
-
-        <!-- <div class="herolabel">
-            <p>Sacramento Temple</p>
-        </div> -->
 
         <!-- Call to action to rent -->
         <button id="rent-button" aria-label="Rent Now!"></button>
 
 
 
-        <section class="card">
-            <h3>Learning Activities</h3>
+        <section class="card" id="rent-price">
+            <h3>Rental Pricing</h3>
 
             <ul id="cards"></ul>
         </section>
 
-        <section class="card">
+        <section class="card" id="rent-info">
             <h3>Rental Information</h3>
             <p>Summary information about all the types of rentals GOES HERE</p>
         </section>
 
-        <section class="card">
+        <section class="card" id="weather">
             <h3>Weather</h3>
 
             <!-- Weather section -->
