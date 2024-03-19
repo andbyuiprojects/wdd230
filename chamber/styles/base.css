@@ -119,9 +119,8 @@ footer {
     font-size: 1.5em;
 }
 
-.weather-forecast:hover, #weather-current:hover {
+.weather-forecast:hover, #weather-current:hover, .events:hover {
     background-color: var(--accent3-color);
-    color: black;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
@@ -142,6 +141,15 @@ footer {
     background-color: var(--accent3);
     cursor: pointer;
     font-size: x-large;
+}
+
+.events {
+    text-align: left;
+    padding: .5rem;
+    margin: 1rem; 
+    border: 8px groove #8ecda3;
+    font-size: 17px;
+    
 }
 
 /**************** Directory Page ****************/
