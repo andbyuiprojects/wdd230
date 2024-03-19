@@ -7,9 +7,7 @@
     /* Navigation menu list items */
     .navigation a {
         flex: 1 1 100%;
-        display: flex;
         padding: .5rem;
-        text-align: center;
         justify-content: center;
     }
 
