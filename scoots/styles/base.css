@@ -115,7 +115,6 @@ main, .navigation {
 
 /* Hero image */
 .hero-img{
-    margin-top: 10px;
     width: 100%;
     height: auto;
 }
@@ -123,6 +122,7 @@ main, .navigation {
 /* Rental section */
 #rent-info {
     background-color: var(--teal-color);
+    margin-bottom: .3rem;
 }
 #rent-info div{
     padding-bottom: 1rem;
