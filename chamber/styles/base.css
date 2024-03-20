@@ -26,7 +26,6 @@ header {
 /* Navigation menu */
 .navigation {
     margin-bottom: .2rem;
-    background-color: var(--primary-color);
     font-size: x-large;
     display: block;
     padding: .5rem;
