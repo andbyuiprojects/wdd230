@@ -87,12 +87,17 @@ a:link, a:visited {
 .navigation a {
     display: block;
     padding: .5rem;
-    text-align: center;
 }
 
 /* Opens the navigation menu */
 .open {
     display: flex;
+}
+
+/* ----------------------------------------- */
+
+main, .navigation {
+    text-align: center;
 }
 
 /* Main Image */
@@ -113,6 +118,22 @@ a:link, a:visited {
     margin-top: 10px;
     width: 100%;
     height: auto;
+}
+
+/* Rental section */
+#rent-info {
+    background-color: var(--teal-color);
+}
+#rent-info div{
+    padding-bottom: 1rem;
+} 
+
+/* Contact section */
+
+
+/* Weather Section */
+#weather {
+    background-color: var(--sand-color);
 }
 
 
