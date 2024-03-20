@@ -8,11 +8,12 @@
     --teal-color: #5ac784;
     --sand-color: #F2D2A9;
     --turquoise-color: #84DCC6;
+    --background-page: #fff0dc;
 }
 
 /* Entire page */
 body {
-    /* background-color: var(--tan-color); */
+    background-color: var(--background-page);
     font-family: "Figtree", "Madimi One", sans-serif;
 }
 
