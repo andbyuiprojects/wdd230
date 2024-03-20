@@ -129,7 +129,9 @@ main, .navigation {
 } 
 
 /* Contact section */
-
+#contact-info{
+    background-color: var(--turquoise-color);
+}
 
 /* Weather Section */
 #weather {
