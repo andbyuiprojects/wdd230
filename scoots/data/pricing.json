@@ -1,0 +1,60 @@
+{
+    "vehicles": [
+        {
+            "type": "Vehicle Type",
+            "capacity": "Max Persons",
+            "halfrez": "Reservation Half Day (3 hours)",
+            "fullrez": "Reservation Full Day",
+            "halfwalk": "Walk-In Half Day (3 hours)",
+            "fullwalk": "Walk-In Full Day"
+        },
+        {
+            "type": "Honda Metro Scooter",
+            "capacity": "1",
+            "halfrez": "$20",
+            "fullrez": "$30",
+            "halfwalk": "$25",
+            "fullwalk": "$35"
+        },
+        {
+            "type": "Honda Dio Scooter",
+            "capacity": "2",
+            "halfrez": "$30",
+            "fullrez": "$40",
+            "halfwalk": "$35",
+            "fullwalk": "$45"
+        },
+        {
+            "type": "Honda PCX150 Scooter",
+            "capacity": "2",
+            "halfrez": "$40",
+            "fullrez": "$50",
+            "halfwalk": "$45",
+            "fullwalk": "$55"
+        },
+        {
+            "type": "Honda Pioneer ATV",
+            "capacity": "4",
+            "halfrez": "$50",
+            "fullrez": "$70",
+            "halfwalk": "$60",
+            "fullwalk": "$80"
+        },
+        {
+            "type": "Jeep Wrangler - 4 door with a/c",
+            "capacity": "5",
+            "halfrez": "$70",
+            "fullrez": "$100",
+            "halfwalk": "$85",
+            "fullwalk": "$125"
+        },
+        {
+            "type": "Jeep Wrangler - 2 door",
+            "capacity": "4",
+            "halfrez": "$60",
+            "fullrez": "$85",
+            "halfwalk": "$70",
+            "fullwalk": "$90"
+        }
+    ]
+}
