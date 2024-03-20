@@ -5,15 +5,16 @@
 :root {
     --blue-color: #7FBADC;
     --tan-color: #E1BF92;
-    --teal-color: #78DCAC;
+    --teal-color: #5ac784;
     --sand-color: #F2D2A9;
     --turquoise-color: #84DCC6;
 }
 
 /* Entire page */
-/* body {
-    background-color: var(--tan-color);
-} */
+body {
+    /* background-color: var(--tan-color); */
+    font-family: "Figtree", "Madimi One", sans-serif;
+}
 
 /* Title */
 header {
@@ -23,7 +24,7 @@ header {
     font-family: "Figtree", sans-serif;
 }
 
-/* ------ Navigation items ----- */
+/* ------ NAVIGATION ITEMS ----- */
 /* Navigation menu */
 .navigation {
     margin-bottom: .2rem;
@@ -49,12 +50,51 @@ a:link, a:visited {
     text-decoration: none;
 }
 
-/* Main portion of center content*/
-main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+/* ------ NAVIGATION ITEMS MOBILE VIEW ----- */
+/* Navigation menu icon position, color, size etc. */
+#menu {
+    font-size: 1.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    background-color: var(--sand-color);
+    color: #000;
+    position: static;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 1rem;
 }
 
+/* Navigation menu icon open */
+#menu::before {
+    content: "⏬";
+}
+
+/* Navigation menu icon close */
+#menu.open::before {
+    content: "❌";
+    font-size: 90%;
+}
+
+/* Navigation menu */
+.navigation {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    display: none;
+}
+
+/* Navigation menu list items */
+.navigation a {
+    display: block;
+    padding: .5rem;
+    text-align: center;
+}
+
+/* Opens the navigation menu */
+.open {
+    display: flex;
+}
+
+/* Main Image */
 .hero img {
     height: auto;
     width: 100%;
@@ -67,3 +107,18 @@ main {
     left: 5%;
 }
 
+/* Hero image */
+.hero-img{
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+}
+
+
+/* ------ CARDS SECTION ----- */
+
+footer {
+    text-align: center;
+    padding: 1px 1px;
+    background-color: var(--blue-color);
+}
