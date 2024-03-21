@@ -45,7 +45,6 @@ function displayResults(data) {
     const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
     let desc =data.weather[0].description;
     weatherIcon.setAttribute('src', iconsrc);
-    weatherIcon.setAttribute('alt', 'weather icon');
     captionDesc.textContent = `${desc}`;
 }
 
@@ -74,21 +73,18 @@ function displayForecast(data) {
   const iconsrc = `https://openweathermap.org/img/w/${data.list[6].weather[0].icon}.png`;
   let desc1 = data.list[6].weather[0].description;
   weatherIcon1.setAttribute("src", iconsrc);
-  weatherIcon1.setAttribute("alt", "weather icon");
   captionDesc1.textContent = `${desc1}`;
 
   forecastTempDay2.innerHTML = `${data.list[14].main.temp.toFixed(1)}&deg;F`;
   const iconsrc1 = `https://openweathermap.org/img/w/${data.list[14].weather[0].icon}.png`;
   let desc2 = data.list[14].weather[0].description;
   weatherIcon2.setAttribute("src", iconsrc1);
-  weatherIcon2.setAttribute("alt", "weather icon");
   captionDesc2.textContent = `${desc2}`;
 
   forecastTempDay3.innerHTML = `${data.list[22].main.temp.toFixed(1)}&deg;F`;
   const iconsrc2 = `https://openweathermap.org/img/w/${data.list[22].weather[0].icon}.png`;
   let desc3 = data.list[22].weather[0].description;
   weatherIcon3.setAttribute("src", iconsrc2);
-  weatherIcon3.setAttribute("alt", "weather icon");
   captionDesc3.textContent = `${desc3}`;
 }
 
