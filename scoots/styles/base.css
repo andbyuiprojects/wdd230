@@ -201,19 +201,19 @@ form legend{
     font-weight: bold;
 }
 
-form label.top {
+form label.top, form div {
     display: block;
     padding-top: 1rem;
 }
 
-form label input, form label select{
+form label.top input{
     display: block;
+    width: 100%;
     font-size: 1rem;
     border: none;
     border-radius: 4px;
     padding: .75rem;
     color: black;
-    width: 100%;
     background-color: var(--sand-color);
 }
 
@@ -234,6 +234,15 @@ form label input, form label select{
     font-size: 16px;
 }
 
+form label.sbs {
+    display: block;
+    padding: .75rem;
+    background-color: var(--sand-color);
+    border-radius: .5rem;
+    margin-bottom: .5rem;
+    color: #000;
+}
+
 .submitBtn:hover {
     background-color: var(--turquoise-color);
 }
@@ -248,4 +257,21 @@ form label.top input:required:valid {
 
 #thankyou-main {
     display: block;
+}
+
+/**************** Rental Page ****************/
+
+#rent-terms {
+    grid-column: 3/4;
+}
+
+.sidebar p {
+    font-size: x-large;
+    padding: .8rem .4rem;
+    border-radius: .3rem;
+    background-color: var(--teal-color)
+}
+
+.reserv-form {
+    grid-row: 1/1;
 }
