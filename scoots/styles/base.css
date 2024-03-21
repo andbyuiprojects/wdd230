@@ -154,4 +154,13 @@ footer {
     text-align: center;
     padding: 1px 1px;
     background-color: var(--sand-color);
+    margin-top: 1rem;
+}
+
+/**************** Reservations Page ****************/
+
+.google-map {
+    display: block;
+    margin: auto;
+    border: none;
 }
