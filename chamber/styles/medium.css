@@ -27,7 +27,7 @@
     }
 
     /* Navigation menu */
-    nav {
+    .navigation {
         display: flex;
         flex-direction: row;
         background-color: var(--primary-color);

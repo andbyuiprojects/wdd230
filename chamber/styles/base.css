@@ -24,7 +24,7 @@ header {
 }
 
 /* Navigation menu */
-nav {
+.navigation {
     margin-bottom: .2rem;
     font-size: x-large;
     display: block;
@@ -32,7 +32,7 @@ nav {
 }
 
 /* Navigation menu items hover */
-nav a:hover {
+.navigation a:hover {
     background-color: var(--secondary-color);
     color: black;
     font-weight: 700;
@@ -249,7 +249,7 @@ h1 {
 }
 
 /* Navigation menu */
-nav {
+.navigation {
     display: flex;
     flex-direction: column;
     list-style: none;
@@ -258,7 +258,7 @@ nav {
 }
 
 /* Navigation menu list items */
-nav a {
+.navigation a {
     display: block;
     padding: .5rem;
     text-align: center;

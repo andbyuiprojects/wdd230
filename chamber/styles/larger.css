@@ -5,7 +5,7 @@
     }
 
     /* Navigation menu list items */
-    nav a {
+    .navigation a {
         flex: 1 1 100%;
         padding: .5rem;
         justify-content: center;
@@ -42,7 +42,7 @@
     }
 
     /* Navigation menu */
-    nav {
+    .navigation {
         display: flex;
         flex-direction: row;
         background-color: var(--primary-color);
