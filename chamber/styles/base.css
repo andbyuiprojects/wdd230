@@ -314,13 +314,10 @@ legend {
     color: #333;
 }
 
-form label.top {
+form label.top input{
     display: block;
     padding-top: 1rem;
     color: #3f2d00;
-}
-
-form label input, form label select{
     display: block;
     font-size: 1rem;
     border: #D6CBD9;
@@ -338,9 +335,7 @@ form label input, form label select{
 
 .sbs {
     display: block;
-    text-align: center;
     padding: .7rem;
-    margin: 0 1rem 0 0 ;
     cursor: pointer;
 }
 
