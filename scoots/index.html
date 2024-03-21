@@ -128,16 +128,32 @@
                 ✔️ All the weather data points provided including the main (which is the title, e.g., "Clouds"), the description, and the associated weather icon.
             -->
             <section id="weather-card">
-                <h4 class="weather-title">Title here</h4>
+
 
                 <!-- Current Weather -->
                 <div class="weather" id="weather-current">
+                    <h4 class="weather-title">Current</h4>
                     <h4><span id="current-temp"></span></h4>
                     <figure id="weather-fig">
                         <img id="weather-icon" src="" alt="Weather Icon">
                         <figcaption id="figcaption" class="weather-figcaption"></figcaption>
+                        <p>Humidity</p>
+                        <figcaption id="figcapHumid"></figcaption>
                     </figure>
                 </div>
+
+
+                <section id="weather-forecast">
+                    <h4 class="weather-title">Tomorrow</h4>
+                    <!-- Day 1 -->
+                    <div class="weather-forecast">
+                        <h4><span id="forecast-day1"></span></h4>
+                        <h4><span id="forecast-temp-day1"></span></h4>
+                        <figure>
+                            <img id="weather-icon-day1" src="" alt="weather icon">
+                            <figcaption id="figcaption-day1" class="weather-figcaption"></figcaption>
+                        </figure>
+                    </div>
             </section>
 
         </section>
