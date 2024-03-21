@@ -38,6 +38,79 @@
     <!-- Main section -->
     <main>
 
+        <section id="rent-terms">
+            <h2>Rental Services and Agreements</h2>
+
+            <div class="sidebar">
+                <p>A $50 security deposit is required to confirm reservations.</p>
+                <p>A valid drivers license is required in hand at the time of rental.</p>
+                <p>No one under the age of 12 years of age are allowed to ride on the scooters.</p>
+                <p>Fuel charge is not included.</p>
+                <p>Unlimited mileage.</p>
+                <p>Liability insurance is included.</p>
+                <p>Damage insurance is available for purchase.</p>
+                <p>Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.</p>
+                <p>Payment via Google Pay, Apple Pay, cash, credit card, debit card, or venmo.</p>
+                <p>Rentals may be returned to either physical location.</p>
+            </div>
+        </section>
+
+        <!-- FORM -->
+        <form class="reserv-form" method="get" action="thankyou.html">
+
+            <h2>Rental Form</h2>
+
+            <fieldset>
+                <legend>Information</legend>
+
+                <label class="top">First Name* <input type="text" id="first-name" name="fname" placeholder="First Name" required></label>
+
+                <label class="top">Last Name* <input type="text" id="last-name" name="lname" placeholder="Last Name" required></label>
+
+                <label class="top">Phone* <input type="tel" id="phone" name="phone" placeholder="1238675309" required></label>
+
+                <label class="top">Email* <input type="email" id="email" name="email" placeholder="youremail@gmail.com" required></label>
+                
+                <!-- <label class="top">Rental Type* <input type="text" id="rent-type" name="rent-type" placeholder="Make and Model" required></label> -->
+
+                <label class="top">State or Country* <input type="text" id="location" name="location" placeholder="State or country" required></label>
+
+                <label class="top">Cruise line (if applicable) <input type="text" id="cruise" name="cruise" placeholder="Cruise line"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Rental Type(s)</legend>
+
+                <div><strong>Scooters</strong></div>
+                <label class="sbs"><input type="checkbox" name="metropolitan" value="yes"> Honda Metropolitan (49cc) - 1 person</label>
+                <label class="sbs"><input type="checkbox" name="dio" value="yes"> Honda Dio (110cc) - 2 person</label>
+                <label class="sbs"><input type="checkbox" name="pcx150" value="yes"> Honda PCX150 (149cc) - 2 person</label>
+
+                <div><strong>ATV</strong></div>
+                <label class="sbs"><input type="checkbox" name="pioneer" value="yes"> Honda Pioneer 1000 - 4 person</label>
+
+                <div><strong>Jeeps</strong></div>
+                <label class="sbs"><input type="checkbox" name="jeep-ac" value="yes"> Jeep Wrangler - 4 door manuel with A/C - 5 person</label>
+                <label class="sbs"><input type="checkbox" name="jeep-open" value="yes"> Jeep Wrangler - 2 door - open air - manuel - 4 person</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Date & Time</legend>
+
+                <label class="top">Date Needed* <input type="date" id="date" name="date" placeholder="Date wanted" required></label>
+
+                <label class="top">Time Needed* <input type="time" id="period" name="period" placeholder="Time" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Special Accommodations</legend>
+                <textarea class="description" name="description" id="description" cols="30" rows="10" placeholder="Ex. need and location of a droop-off request"></textarea>
+                <input type="hidden" id="hid" name="hid">
+            </fieldset>
+
+            <input type="submit" value="Make Reservation!" class="submitBtn">
+
+        </form>
     </main>
 
 
