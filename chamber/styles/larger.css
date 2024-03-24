@@ -110,7 +110,7 @@
         text-align: center;
     }
 
-    #cards {
+    #cards{
         grid-gap: 5px;
         align-items: center;
         grid-template-columns: 1fr 1fr;
@@ -120,5 +120,9 @@
     .list-directory section {
         grid-template-columns: 1fr;
         grid-column: 1/4;
+    }
+
+    #business-card {
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
