@@ -19,17 +19,6 @@
     <meta property="og:url" content="https://andbyuiprojects.github.io/wdd230/"> -->
 </head>
 
-<!--
-    ❕❕ The Home page is a contemporary, exciting landing page providing images of the island and rental facilities and must include the following:
-    ❕ A call to action to make a rental reservation.
-    ❕ Readily available navigation and contact information.
-    ❕ Summary information about all the types of rentals.
-    ❕ Social media links (a general link is OK)
-    ❕ Weather information from the free version of openweathermap.org. Here is the minimum information to include on the page:
-    ❕ Include a closeable message at the very top of the page that provides the high temperature temp-max for the current day.
- -->
-
-
 <body>
 
     <!-- Header with profile pic and name -->
@@ -59,7 +48,7 @@
         </div>
 
         <!-- Call to action to rent -->
-        <button id="rent-button" aria-label="Rent Now!"></button>
+
 
         <section class="card" id="rent-info">
             <h3>Rental Information</h3>
@@ -103,6 +92,13 @@
                 <p>4 Person</p>
             </div>
 
+            <div>
+                <a href="/scoots/rentals.html" target="_blank">
+                    <button class="rent-button" aria-label="rentNow"><strong>Rent Now!</strong></button>
+                </a>
+
+            </div>
+
         </section>
 
         <section class="card" id="contact-info">
@@ -116,14 +112,6 @@
             <h3>Weather</h3>
 
             <!-- Weather section -->
-
-            <!--
-                Weather information from the free version of openweathermap.org. Here is the minimum information to include on the page:
-                ✔️ The current temperature
-                ✔️ The current humidity
-                ✔️ The next day's forecasted temperature at 15:00 (3:00pm).
-                ✔️ All the weather data points provided including the main (which is the title, e.g., "Clouds"), the description, and the associated weather icon.
-            -->
             <section id="weather-card">
 
 
@@ -142,7 +130,6 @@
 
                 <section id="weather-forecast">
                     <h4 class="weather-title">Tomorrow</h4>
-                    <!-- Day 1 -->
                     <div class="weather-forecast">
                         <h4><span id="forecast-day1"></span></h4>
                         <h4><span id="forecast-temp-day1"></span></h4>
