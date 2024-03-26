@@ -37,15 +37,19 @@
         grid-column: 1/4;
     }
 
+    #weather-card {
+        display: flex;
+        justify-content: center;
+    }
+
     /* hide menu button */
     #menu {
         display: none; 
     }
 
     #weather-forecast, #weather-current {
-        border: 10px groove var(--tan-color);
         border-radius: .5rem;
-        margin: 1rem 30rem;
+        width: 50%;
     }
 
     /**************** Contact Page ****************/
