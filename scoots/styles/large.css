@@ -4,6 +4,10 @@
         margin: 0 1rem;
     }
 
+    h1 {
+        padding-left: 13rem;
+    }
+
     /* Navigation menu list items */
     .navigation a {
         flex: 1 1 100%;
@@ -77,6 +81,11 @@
         margin-right: 2rem;
         grid-column: 1/3;
         grid-row: 2/4;
+    }
+
+/**************** Rental Page ****************/
+    #table tr, td{
+        padding: 1.5rem;
     }
     
 }
