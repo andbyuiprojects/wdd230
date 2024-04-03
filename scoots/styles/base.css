@@ -73,11 +73,10 @@ a:link, a:visited {
 
 #temp-banner {
     display: flex;
-    background-color: #3c5868;
     justify-content: center;
+    background-color: #3c5868;
     color: white;
     margin-bottom: 1rem;
-    border-radius: .5rem;
     font-weight: 700;
     font-size: large;
     box-shadow: 5px 5px 5px 5px #888888;
