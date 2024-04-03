@@ -311,7 +311,7 @@ form label.top input:required:valid {
     font-size: x-large;
     padding: .8rem .4rem;
     border-radius: .3rem;
-    background-color: var(--teal-color)
+    background-color: var(--turquoise-color)
 }
 
 .reserv-form {
