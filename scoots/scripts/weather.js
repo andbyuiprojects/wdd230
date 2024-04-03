@@ -2,6 +2,7 @@ const currentTemp = document.querySelector("#current-temp");
 const weatherIcon = document.querySelector("#weather-icon");
 const captionDesc = document.querySelector("#figcaption");
 const currentHumidity = document.querySelector("#figcapHumid");
+const maxTemp = document.querySelector("#max-temp"); 
 
 const forecastTempDay1 = document.querySelector("#forecast-temp-day1");
 const weatherIcon1 = document.querySelector("#weather-icon-day1");
@@ -40,6 +41,7 @@ function displayResults(data) {
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', 'weather icon');
     captionDesc.textContent = `${desc}`;
+    maxTemp.innerHTML = `${data.main.temp_max.toFixed(1)}&deg;F`;
 }
 
 async function forecastapiFetch() {
@@ -87,6 +89,11 @@ function forecastDays() {
   const todayIndex = currentDate.getDay();
 
   forecastDay1.innerHTML = `${daysOfWeek[(todayIndex + 1) % 7]}`;
+}
+
+function closeBanner() {
+  const tempBanner = document.getElementById("temp-banner");
+  tempBanner.style.display = "none";
 }
 
 currentapiFetch();

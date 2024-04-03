@@ -71,6 +71,30 @@ a:link, a:visited {
     content: "💠";
 }
 
+#temp-banner {
+    display: flex;
+    background-color: #3c5868;
+    justify-content: center;
+    color: white;
+    margin-bottom: 1rem;
+    border-radius: .5rem;
+    font-weight: 700;
+    font-size: large;
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+
+#temp-banner p{
+    padding: .2rem;
+}
+
+.close-button {
+    cursor: pointer;
+    font-size: x-large;
+    margin: .5rem;
+    border-radius: .5rem;
+    background-color: var(--blue-color);
+}
+
 /* ------ NAVIGATION ITEMS MOBILE VIEW ----- */
 /* Navigation menu icon position, color, size etc. */
 #menu {

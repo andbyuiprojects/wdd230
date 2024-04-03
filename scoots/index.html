@@ -39,6 +39,14 @@
 
     <!-- Main section -->
     <main>
+
+        <!-- Announcement banner -->
+        <div id="temp-banner">
+            <p>Max Temperature for the day: </p>
+            <p id="max-temp"></p>
+            <button class="close-button" onclick="closeBanner()">❌</button>
+        </div>
+
         <!-- Main image on the page -->
         <section id="top-left">
             <div class="hero">
@@ -65,8 +73,6 @@
         </section>
 
         <!-- Call to action to rent -->
-
-
         <section class="card" id="rent-info">
             <h3>Rental Information</h3>
 
@@ -95,7 +101,6 @@
                 <p>4 Person</p>
             </div>
 
-
             <h4>Jeeps</h4>
             <div class="jeep">
                 <p>Jeep Wrangler</p>
@@ -110,17 +115,13 @@
             </div>
 
             <button class="rent-button" aria-label="rentNow" onclick="window.location.href='reservations.html';"><strong>Rent Now!</strong></button>
-
         </section>
-
-
 
         <section class="card" id="weather">
             <h3>Weather</h3>
 
             <!-- Weather section -->
             <section id="weather-card">
-
 
                 <!-- Current Weather -->
                 <div class="weather" id="weather-current">
@@ -133,7 +134,6 @@
                     <p>Humidity</p>
                     <p id="figcapHumid"></p>
                 </div>
-
 
                 <section id="weather-forecast">
                     <div class="weather-forecast">
@@ -153,10 +153,6 @@
         </section>
     </main>
 
-    <!-- Google map -->
-    <!-- <iframe id="google-map" title="Google map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d23028.702893830447!2d-111.77842773669428!3d43.822907500053105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1706127925313!5m2!1sen!2sus"
-    width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
-
     <!-- Footer -->
     <footer>
         <p>Phone: 1-(800)-867-5309 | Email: scootsrentals@email.com</p>
@@ -164,10 +160,7 @@
     </footer>
 
     <!-- For JS file -->
-    <!-- <script src="scripts/getdates.js"></script> -->
     <script src="scripts/menubutton.js"></script>
-    <!-- <script src="scripts/localstorage.js"></script> -->
-    <!-- <script src="scripts/links.js"></script> -->
     <script src="scripts/weather.js"></script>
 
 </body>
